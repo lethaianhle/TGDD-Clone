@@ -1,0 +1,2451 @@
+<!DOCTYPE html>
+<html lang="vi-VN">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Gioi Di Dong Clone</title>
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <link href="/favicon_TGDD.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="/favicon_TGDD.ico" rel="apple-touch-icon" />
+    <link href="/favicon_TGDD.ico" rel="apple-touch-icon-precomposed" />
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+
+    <header class="header  " data-sub="0">
+        <div class="header__top">
+            <div>
+                <a href="/" class="header__logo">
+                <i class="icon-logo"></i>
+            </a>
+
+
+                <div class="bordercol"></div>
+                <a href="javascript:void(0)" class="header__address">
+        Xem giá, khuyến mãi tại
+        <span data-province="3" data-district="0" data-ward="0">H&#x1ED3; Ch&#xED; Minh</span>
+    </a>
+
+                <form action="" class="header__search">
+                    <input id="skw" type="text" class="input-search" placeholder="Bạn tìm gì..." name="key" autocomplete="off" maxlength="100">
+                    <button type="submit">
+        <i class="icon-search"></i>
+    </button>
+                    <div id="search-result"></div>
+                </form>
+                <a href="#" class="header__cart menu-info">
+    <i class="icon-cart"></i>
+    <span>Giỏ hàng</span>
+</a>
+                <a href="#" class="header__history">Lịch sử đơn hàng</a>
+                <div class="bordercol"></div>
+                <a href="#" class="header__hot">
+                    <p class="dotnew"></p>Mobifone trả sau đến hạn thanh toán. Mua thẻ nạp ngay!</a>
+                <div class="header__listtop">
+                    <div class="bordercol"></div>
+                    <div class="divitem">
+                        <a href="#">24h<br>Công nghệ</a>
+                    </div>
+                    <div class="bordercol"></div>
+                    <div class="divitem">
+                        <a href="#">Đăng nhập</a>
+                    </div>
+                    <div class="bordercol"></div>
+                    <div class="divitem">
+                        <a href="#">Đăng ký</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="header__main">
+            <div>
+                <ul class="main-menu">
+                    <li>
+                        <a href="#">
+                    <i class="icon-dienthoai"></i>
+                    <span>Điện thoại</span>
+                </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                    <i class="icon-laptop"></i>
+                    <span>Laptop</span>
+                </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                    <i class="icon-tablet"></i>
+                    <span>Tablet</span>
+                </a>
+                    </li>
+                    <li class="phukien">
+                        <a href="#">
+                    <i class="icon-phukien"></i>
+                    <span>Phụ kiện</span>
+                </a>
+                        <div class="navmwg accessories">
+                            <div class="PKDD">
+                                <strong>Phụ kiện di động</strong>
+                                <a href="#">
+                                    <h3>Pin sạc dự phòng</h3>
+                                </a>
+                                <a href="#">
+                                    <h3>Sạc, cáp</h3>
+                                </a>
+                                <a href="#">
+                                    <h3>Miếng dán màn hình</h3>
+                                </a>
+                                <a href="#">
+                                    <h3>Ốp lưng điện thoại</h3>
+                                </a>
+                                <a href="#">
+                                    <h3>Ốp lưng máy tính bảng</h3>
+                                </a>
+                                <a href="#">
+                                    <h3>Gậy tự sướng</h3>
+                                </a>
+                                <a href="#">
+                                    <h3>Giá đỡ laptop, điện thoại</h3>
+                                </a>
+                                <a href="#">
+                                    <h3>Đế, móc điện thoại</h3>
+                                </a>
+                                <a href="#">
+                                    <h3>Túi chống nước</h3>
+                                </a>
+                                <a href="#">
+                                    <h3>Túi đựng Airpods</h3>
+                                </a>
+                                <a href="#">
+                                    <h3>Phụ kiện iPad</h3>
+                                </a>
+                                <br /><br />
+                            </div>
+                            <div class="sub-cate">
+                                <div class="PKLT">
+                                    <strong>Ph&#x1EE5; ki&#x1EC7;n Laptop</strong>
+                                    <a href="#">
+                                        <h3>Chuột, bàn phím</h3>
+                                    </a>
+                                    <a href="#">
+                                        <h3>Thiết bị mạng</h3>
+                                    </a>
+                                    <a href="#">
+                                        <h3>Camera, Webcam</h3>
+                                    </a>
+                                    <a href="#">
+                                        <h3>Balo, túi chống sốc</h3>
+                                    </a>
+                                    <a href="#">
+                                        <h3>Phần mềm</h3>
+                                    </a>
+                                </div>
+                                <div class="PKCH">
+                                    <strong>
+                                            Thương hiệu hàng đầu
+                                            <a href="#" class="">Xem tất cả</a>
+                                        </strong>
+                                    <a href="#">
+                                        <h3>Apple</h3>
+                                    </a>
+                                    <a href="#">
+                                        <h3>Samsung</h3>
+                                    </a>
+                                    <a href="#">
+                                        <h3>Sony</h3>
+                                    </a>
+                                    <a href="#">
+                                        <h3>Anker</h3>
+                                    </a>
+                                </div>
+                                <div class="TBAT">
+                                    <strong>Thi&#x1EBF;t b&#x1ECB; &#xE2;m thanh</strong>
+                                    <a href="#">
+                                        <h3>Tai nghe</h3>
+                                    </a>
+                                    <a href="#">
+                                        <h3>Loa</h3>
+                                    </a>
+                                    <div class="TBLT">
+                                        <strong>Thiết bị lưu trữ</strong>
+                                        <a href="#">
+                                            <h3>Thẻ nhớ</h3>
+                                        </a>
+                                        <a href="#">
+                                            <h3>USB</h3>
+                                        </a>
+                                        <a href="#">
+                                            <h3>Ổ cứng di động</h3>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="PKK">
+                                    <strong>Ph&#x1EE5; ki&#x1EC7;n kh&#xE1;c</strong>
+                                    <a href="#">
+                                        <h3>Thiết bị thông minh</h3>
+                                    </a>
+                                    <a href="#">
+                                        <h3>Phụ kiện ô tô</h3>
+                                    </a>
+                                    <a href="#">
+                                        <h3>Máy tính cầm tay</h3>
+                                    </a>
+                                    <a href="#">
+                                        <h3>Máy chiếu, TV Box</h3>
+                                    </a>
+                                    <a href="#">
+                                        <h3>Quạt mini</h3>
+                                    </a>
+                                    <a href="#">
+                                        <h3>Pin tiểu, pin điện thoại</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                    <i class="icon-dhthongminh"></i>
+                    <span>Đồng hồ thông minh</span>
+                </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                    <i class="icon-dhthoitrang"></i>
+                    <span>Đồng hồ thời trang</span>
+                </a>
+                    </li>
+                    <li class="pcmayin">
+                        <a href="#">
+                    <i class="icon-pcmayin"></i>
+                    <span>PC, Máy in</span>
+                </a>
+                        <div class="navmwg PC-mayin">
+                            <a href="#">
+                                <h3>Máy in</h3>
+                            </a>
+                            <a href="#">
+                                <h3>Mực in</h3>
+                            </a>
+                            <a href="#">
+                                <h3>Màn hình máy tính</h3>
+                            </a>
+                            <a href="#">
+                                <h3>Máy tính để bàn</h3>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                    <span>Máy cũ giá rẻ</span>
+                </a>
+                    </li>
+                    <li>
+                <a href="#">
+                    <span>Sim, Thẻ cào</span>
+                </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                    <span>Trả góp, điện nước</span>
+                </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="bar-top">
+            <aside class="homebanner">
+                <div id="sync1" class="slider-banner owl-carousel">
+                    <div class="item">
+                        <a aria-label="slide" data-cate="0" data-place="1546" href="#" ><img  src="//cdn.tgdd.vn/2021/08/banner/fold3sl-830-300-830x300.png" alt="SS"  ></a>
+                    </div>
+                    <div class="item">
+                        <a aria-label="slide" data-cate="0" data-place="1546" href="#" ><img  loading="lazy" class="lazyload owl-lazy" data-src="//cdn.tgdd.vn/2021/07/banner/iphone-12-830-300-830x300.png" alt="iphone"  ></a>
+                    </div>
+                    <div class="item">
+                        <a aria-label="slide" data-cate="0" data-place="1546" href="#" ><img  loading="lazy" class="lazyload owl-lazy" data-src="//cdn.tgdd.vn/2021/08/banner/renoz-830-300-830x300.png" alt="Reno6 Z"  ></a>
+                    </div>
+                    <div class="item">
+                        <a aria-label="slide" data-cate="0" data-place="1546" href="#" ><img  loading="lazy" class="lazyload owl-lazy" data-src="//cdn.tgdd.vn/2021/07/banner/830-300-830x300-17.png" alt="vivo"  ></a>
+                    </div>
+                    <div class="item">
+                        <a aria-label="slide" data-cate="0" data-place="1546" href="#" ><img  loading="lazy" class="lazyload owl-lazy" data-src="//cdn.tgdd.vn/2021/08/banner/830-300-830x300-2.png" alt="apple watch s6"  ></a>
+                    </div>
+                    <div class="item">
+                        <a aria-label="slide" data-cate="0" data-place="1546" href="#" ><img  loading="lazy" class="lazyload owl-lazy" data-src="//cdn.tgdd.vn/2021/08/banner/830-300-830x300-3.png" alt="Laptop Tựu Trường[break]Ưu Đãi X3"  ></a>
+                    </div>
+                    <div class="item">
+                        <a aria-label="slide" data-cate="0" data-place="1546" href="#" "><img  loading="lazy" class="lazyload owl-lazy" data-src="//cdn.tgdd.vn/2021/08/banner/dhtt-830-300-830x300.png" alt="đồng hồ thời trang"  ></a>
+                    </div>
+                    <div class="item">
+                        <a aria-label="slide" data-cate="0" data-place="1546" href="#" ><img  loading="lazy" class="lazyload owl-lazy" data-src="//cdn.tgdd.vn/2021/07/banner/830-300-830x300-15.png" alt="phụ kiện"  ></a>
+                    </div>
+                </div>
+                <div id="sync2" class="slider-banner owl-carousel">
+                    <div class="item">
+                        <h3>
+                            Galaxy Z Fold3 5G<br/>Đặt Trước Rước Quà Khủng
+                        </h3>
+                    </div>
+                    <div class="item">
+                        <h3>
+                            Sắm iPhone 12<br/>Giảm Đến 3 Triệu
+                        </h3>
+                    </div>
+                    <div class="item">
+                        <h3>
+                            OPPO Reno6 Z 5G<br/>Giá 9.490.000đ, Quà Ngon
+                        </h3>
+                    </div>
+                    <div class="item">
+                        <h3>
+                            Sắm Vivo Y72 5G<br/>Giảm Ngay 400 Ngàn
+                        </h3>
+                    </div>
+                    <div class="item">
+                        <h3>
+                            Apple Watch S6<br/>Đồng Giảm Sốc 15%
+                        </h3>
+                    </div>
+                    <div class="item">
+                        <h3>
+                            Laptop Tựu Trường<br/>Ưu Đãi X3
+                        </h3>
+                    </div>
+                    <div class="item">
+                        <h3>
+                            Đồng Hồ Thời Trang<br/>Giảm Đến 45%
+                        </h3>
+                    </div>
+                    <div class="item">
+                        <h3>
+                            Sắm Phụ Kiện<br/>Giảm Đến 45%
+                        </h3>
+                    </div>
+                </div>
+            </aside>
+
+            <div class="preorder-hot">
+                <a aria-label="slide" data-cate="0" data-place="1548" href="#" >
+                    <img  src="//cdn.tgdd.vn/2021/06/banner/Group3913-340x340.jpg" alt="iphone" >
+                </a>
+                <a aria-label="slide" data-cate="0" data-place="1548" href="#" >
+                    <img src="//cdn.tgdd.vn/2021/08/banner/laptopdesk-340x340-3.jpg" alt="Galaxy Note20">
+                </a>
+                <a aria-label="slide" data-cate="0" data-place="1548" href="#">
+                    <img  src="//cdn.tgdd.vn/2021/08/banner/laptopdesk-340x340-2.jpg" alt="Laptop Gaming"  >
+                </a>
+                <a aria-label="slide" data-cate="0" data-place="1548" href="#">
+                    <img src="//cdn.tgdd.vn/2021/08/banner/Frame39582x-340x340-1.png" alt="SP hot Apple watch">
+                </a>
+            </div>
+
+        </div>
+
+
+        <!--  Săn sale online -->
+        <div class="prd-promo" style=background-color:#fed100 data-html-id="3429">
+            <div class="prd-promo__top clearfix">
+                <p class="prd-promo__title">S&#x103;n Sale Online M&#x1ED7;i Ng&#xE0;y</p>
+            </div>
+            <div class="listproduct slider-promo owl-carousel" data-size="20">
+                <div class="item" data-id="229949" data-pos="1">
+                    <a href='#' class=" main-contain" data-s="Nomal" data-site="1" data-pro="3" data-cache="True" data-name="&#x110;i&#x1EC7;n tho&#x1EA1;i Samsung Galaxy Z Flip3 5G 128GB" data-id="229949" data-price="24990000.0" data-brand="Samsung"
+                        data-cate="&#x110;i&#x1EC7;n tho&#x1EA1;i" data-box="BoxHome">
+                        <div class="item-label">
+                        </div>
+                        <div class="item-img">
+                            <img data-src="https://cdn.tgdd.vn/Products/Images/42/229949/samsung-galaxy-z-flip-3-cream-600x600.jpg" class="lazyload" alt="Samsung Galaxy Z Flip3 5G 128GB" width=210 height=210>
+                            <img src="https://cdn.tgdd.vn/ValueIcons/label-moi-ra-mat-fnal.png" width="40" height="40" class="lazyload lbliconimg lbliconimg_42 tgdd" />
+                        </div>
+                        <p class="preorder">Đặt trước đến 16/09</p>
+                        <h3>Samsung Galaxy Z Flip3 5G 128GB</h3>
+                        <p class="item-txt-online">H&#xE0;ng s&#x1EAF;p v&#x1EC1;</p>
+                        <strong class="price">24.990.000&#x20AB;</strong>
+                        <p class="item-gift">Tặng PMH 2 triệu, Trả góp 0% đến 24 tháng</p>
+                    </a>
+
+                </div>
+                <div class="item" data-id="213033" data-pos="2">
+                    <a href='#' class=" main-contain" data-s="Nomal" data-site="1" data-pro="3" data-cache="True" data-name="&#x110;i&#x1EC7;n tho&#x1EA1;i iPhone 12 Pro Max 128GB" data-id="213033" data-price="30990000.0" data-brand="iPhone (Apple)"
+                        data-cate="&#x110;i&#x1EC7;n tho&#x1EA1;i" data-box="BoxHome">
+                        <div class="item-label">
+                        </div>
+                        <div class="item-img">
+                            <img data-src="https://cdn.tgdd.vn/Products/Images/42/213033/iphone-12-pro-max-xanh-duong-new-600x600-600x600.jpg" class="lazyload" alt="iPhone 12 Pro Max 128GB" width=210 height=210>
+                        </div>
+                        <p class='result-label temp1'><img width='20' height='20' class='lazyload' alt='TRỢ GIÁ MÙA DỊCH' data-src='https://cdn.tgdd.vn/2020/10/content/icon1-50x50.png'><span>TRỢ GIÁ MÙA DỊCH</span></p>
+                        <h3>iPhone 12 Pro Max 128GB</h3>
+                        <p class="item-txt-online">Online gia&#x301; re&#x309;</p>
+                        <div class="box-p">
+                            <p class="price-old black">32.990.000&#x20AB;</p>
+                            <span class="percent">-6%</span>
+                        </div>
+                        <strong class="price">30.990.000&#x20AB;</strong>
+                        <p class="item-gift">Quà <b>400.000₫</b></p>
+                        <div class="item-rating">
+                            <p>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star-dark"></i>
+                            </p>
+                            <p class="item-rating-total">112</p>
+                        </div>
+
+
+                    </a>
+
+                </div>
+                <div class="item" data-id="236186" data-pos="3">
+                    <a href='#' class=" main-contain" data-s="Nomal" data-site="1" data-pro="3" data-cache="True" data-name="&#x110;i&#x1EC7;n tho&#x1EA1;i OPPO Reno6 5G" data-id="236186" data-price="12990000.0" data-brand="OPPO" data-cate="&#x110;i&#x1EC7;n tho&#x1EA1;i"
+                        data-box="BoxHome">
+                        <div class="item-label">
+                        </div>
+                        <div class="item-img">
+                            <img data-src="https://cdn.tgdd.vn/Products/Images/42/236186/oppo-reno6-5g-aurora-600x600.jpg" class="lazyload" alt="OPPO Reno6 5G" width=210 height=210>
+                        </div>
+                        <p class='result-label temp1'><img width='20' height='20' class='lazyload' alt='TRỢ GIÁ MÙA DỊCH' data-src='https://cdn.tgdd.vn/2020/10/content/icon1-50x50.png'><span>TRỢ GIÁ MÙA DỊCH</span></p>
+                        <h3>OPPO Reno6 5G</h3>
+                        <strong class="price">12.990.000&#x20AB;</strong>
+                        <p class="item-gift">Quà <b>500.000₫</b></p>
+
+
+                    </a>
+
+                </div>
+                <div class="item" data-id="218355" data-pos="4">
+                    <a href='#' class=" main-contain" data-s="Nomal" data-site="1" data-pro="3" data-cache="True" data-name="&#x110;i&#x1EC7;n tho&#x1EA1;i Samsung Galaxy Note 20" data-id="218355" data-price="14990000.0" data-brand="Samsung" data-cate="&#x110;i&#x1EC7;n tho&#x1EA1;i"
+                        data-box="BoxHome">
+                        <div class="item-label">
+                        </div>
+                        <div class="item-img">
+                            <img data-src="https://cdn.tgdd.vn/Products/Images/42/218355/samsung-galaxy-note-20-062220-122200-fix-600x600.jpg" class="lazyload" alt="Samsung Galaxy Note 20" width=210 height=210>
+                        </div>
+                        <p class='result-label temp1'><img width='20' height='20' class='lazyload' alt='TRỢ GIÁ MÙA DỊCH' data-src='https://cdn.tgdd.vn/2020/10/content/icon1-50x50.png'><span>TRỢ GIÁ MÙA DỊCH</span></p>
+                        <h3>Samsung Galaxy Note 20</h3>
+                        <div class="box-p">
+                            <p class="price-old black">23.990.000&#x20AB;</p>
+                            <span class="percent">-37%</span>
+                        </div>
+                        <strong class="price">14.990.000&#x20AB;</strong>
+                        <p class="item-gift">Quà <b>300.000₫</b></p>
+                        <div class="item-rating">
+                            <p>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star-dark"></i>
+                                <i class="icon-star-dark"></i>
+                            </p>
+                            <p class="item-rating-total">109</p>
+                        </div>
+
+
+                    </a>
+
+                </div>
+                <div class="item" data-id="233135" data-pos="5">
+                    <a href='/dtdd/realme-8' class=" main-contain" data-s="TwoPrice" data-site="1" data-pro="3" data-cache="True" data-name="&#x110;i&#x1EC7;n tho&#x1EA1;i Realme 8" data-id="233135" data-price="7290000.0" data-brand="Realme" data-cate="&#x110;i&#x1EC7;n tho&#x1EA1;i"
+                        data-box="BoxHome">
+                        <div class="item-label">
+                        </div>
+                        <div class="item-img">
+                            <img data-src="https://cdn.tgdd.vn/Products/Images/42/233135/realme-8-silver-600x600.jpg" class="lazyload" alt="Realme 8" width=210 height=210>
+                        </div>
+                        <p class='result-label temp1'><img width='20' height='20' class='lazyload' alt='TRỢ GIÁ MÙA DỊCH' data-src='https://cdn.tgdd.vn/2020/10/content/icon1-50x50.png'><span>TRỢ GIÁ MÙA DỊCH</span></p>
+                        <h3>Realme 8</h3>
+                        <strong class="price">7.290.000&#x20AB;</strong>
+                        <strong class="price twoprice">Giá rẻ: 7.120.000&#x20AB;</strong>
+                        <div class="item-rating">
+                            <p>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star-dark"></i>
+                                <i class="icon-star-dark"></i>
+                            </p>
+                            <p class="item-rating-total">65</p>
+                        </div>
+
+
+                    </a>
+
+                </div>
+                <div class="item" data-id="228376" data-pos="6">
+                    <a href='/dtdd/vivo-y20s' class=" main-contain" data-s="Nomal" data-site="1" data-pro="3" data-cache="True" data-name="&#x110;i&#x1EC7;n tho&#x1EA1;i Vivo Y20s" data-id="228376" data-price="4690000.0" data-brand="Vivo" data-cate="&#x110;i&#x1EC7;n tho&#x1EA1;i"
+                        data-box="BoxHome">
+                        <div class="item-label">
+                        </div>
+                        <div class="item-img">
+                            <img data-src="https://cdn.tgdd.vn/Products/Images/42/228376/vivo-y20s-den-13-600x600.jpg" class="lazyload" alt="Vivo Y20s" width=210 height=210>
+                        </div>
+                        <p class='result-label temp1'><img width='20' height='20' class='lazyload' alt='TRỢ GIÁ MÙA DỊCH' data-src='https://cdn.tgdd.vn/2020/10/content/icon1-50x50.png'><span>TRỢ GIÁ MÙA DỊCH</span></p>
+                        <h3>Vivo Y20s</h3>
+                        <div class="box-p">
+                            <p class="price-old black">4.990.000&#x20AB;</p>
+                            <span class="percent">-6%</span>
+                        </div>
+                        <strong class="price">4.690.000&#x20AB;</strong>
+                        <p class="item-gift">Quà <b>200.000₫</b></p>
+                        <div class="item-rating">
+                            <p>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star-dark"></i>
+                                <i class="icon-star-dark"></i>
+                                <i class="icon-star-dark"></i>
+                            </p>
+                            <p class="item-rating-total">114</p>
+                        </div>
+
+
+                    </a>
+
+                </div>
+                <div class="item" data-id="228967" data-pos="7">
+                    <a href='/dtdd/samsung-galaxy-a52' class=" main-contain" data-s="TwoPrice" data-site="1" data-pro="3" data-cache="True" data-name="&#x110;i&#x1EC7;n tho&#x1EA1;i Samsung Galaxy A52 (8GB/128GB)" data-id="228967" data-price="9290000.0" data-brand="Samsung"
+                        data-cate="&#x110;i&#x1EC7;n tho&#x1EA1;i" data-box="BoxHome">
+                        <div class="item-label">
+                        </div>
+                        <div class="item-img">
+                            <img data-src="https://cdn.tgdd.vn/Products/Images/42/228967/samsung-galaxy-a52-8gb-256gb-thumb-violet-600x600-600x600.jpg" class="lazyload" alt="Galaxy A52 8GB/128GB" width=210 height=210>
+                        </div>
+                        <p class='result-label temp1'><img width='20' height='20' class='lazyload' alt='TRỢ GIÁ MÙA DỊCH' data-src='https://cdn.tgdd.vn/2020/10/content/icon1-50x50.png'><span>TRỢ GIÁ MÙA DỊCH</span></p>
+                        <h3>Galaxy A52 8GB/128GB</h3>
+                        <strong class="price">9.290.000&#x20AB;</strong>
+                        <strong class="price twoprice">Giá rẻ: 8.460.000&#x20AB;</strong>
+                        <div class="item-rating">
+                            <p>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star-dark"></i>
+                                <i class="icon-star-dark"></i>
+                            </p>
+                            <p class="item-rating-total">85</p>
+                        </div>
+
+
+                    </a>
+
+                </div>
+                <div class="item" data-id="153856" data-pos="8">
+                    <a href='/dtdd/iphone-11' class=" main-contain" data-s="Nomal" data-site="1" data-pro="3" data-cache="True" data-name="&#x110;i&#x1EC7;n tho&#x1EA1;i iPhone 11 64GB" data-id="153856" data-price="14990000.0" data-brand="iPhone (Apple)" data-cate="&#x110;i&#x1EC7;n tho&#x1EA1;i"
+                        data-box="BoxHome">
+                        <div class="item-label">
+                        </div>
+                        <div class="item-img">
+                            <img data-src="https://cdn.tgdd.vn/Products/Images/42/153856/iphone-xi-do-600x600.jpg" class="lazyload" alt="iPhone 11 64GB" width=210 height=210>
+                        </div>
+                        <p class='result-label temp1'><img width='20' height='20' class='lazyload' alt='TRỢ GIÁ MÙA DỊCH' data-src='https://cdn.tgdd.vn/2020/10/content/icon1-50x50.png'><span>TRỢ GIÁ MÙA DỊCH</span></p>
+                        <h3>iPhone 11 64GB</h3>
+                        <p class="item-txt-online">Online gia&#x301; re&#x309;</p>
+                        <div class="box-p">
+                            <p class="price-old black">17.490.000&#x20AB;</p>
+                            <span class="percent">-14%</span>
+                        </div>
+                        <strong class="price">14.990.000&#x20AB;</strong>
+                        <p class="item-gift">Quà <b>400.000₫</b></p>
+                        <div class="item-rating">
+                            <p>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star-half"></i>
+                                <i class="icon-star-dark"></i>
+                            </p>
+                            <p class="item-rating-total">317</p>
+                        </div>
+
+
+                    </a>
+
+                </div>
+                <div class="item" data-id="233460" data-pos="9">
+                    <a href='/dtdd/oppo-reno5-5g' class=" main-contain" data-s="TwoPrice" data-site="1" data-pro="3" data-cache="True" data-name="&#x110;i&#x1EC7;n tho&#x1EA1;i OPPO Reno5 5G" data-id="233460" data-price="11390000.0" data-brand="OPPO" data-cate="&#x110;i&#x1EC7;n tho&#x1EA1;i"
+                        data-box="BoxHome">
+                        <div class="item-label">
+                        </div>
+                        <div class="item-img">
+                            <img data-src="https://cdn.tgdd.vn/Products/Images/42/233460/oppo-reno5-5g-thumb-600x600.jpg" class="lazyload" alt="OPPO Reno5 5G" width=210 height=210>
+                        </div>
+                        <p class='result-label temp1'><img width='20' height='20' class='lazyload' alt='TRỢ GIÁ MÙA DỊCH' data-src='https://cdn.tgdd.vn/2020/10/content/icon1-50x50.png'><span>TRỢ GIÁ MÙA DỊCH</span></p>
+                        <h3>OPPO Reno5 5G</h3>
+                        <div class="box-p">
+                            <p class="price-old black">11.990.000&#x20AB;</p>
+                            <span class="percent">-5%</span>
+                        </div>
+                        <strong class="price">11.390.000&#x20AB;</strong>
+                        <strong class="price twoprice">Giá rẻ: 11.020.000&#x20AB;</strong>
+                        <div class="item-rating">
+                            <p>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star-dark"></i>
+                                <i class="icon-star-dark"></i>
+                            </p>
+                            <p class="item-rating-total">55</p>
+                        </div>
+
+
+                    </a>
+
+                </div>
+                <div class="item" data-id="233130" data-pos="10">
+                    <a href='/dtdd/xiaomi-redmi-9t-6gb' class=" main-contain" data-s="TwoPrice" data-site="1" data-pro="3" data-cache="True" data-name="&#x110;i&#x1EC7;n tho&#x1EA1;i Xiaomi Redmi 9T (6GB/128GB)" data-id="233130" data-price="4190000.0" data-brand="Xiaomi"
+                        data-cate="&#x110;i&#x1EC7;n tho&#x1EA1;i" data-box="BoxHome">
+                        <div class="item-label">
+                        </div>
+                        <div class="item-img">
+                            <img data-src="https://cdn.tgdd.vn/Products/Images/42/233130/xiaomi-redmi-9t-6gb-110621-080650-600x600.jpg" class="lazyload" alt="Xiaomi Redmi 9T (6GB/128GB)" width=210 height=210>
+                            <img src="https://cdn.tgdd.vn/ValueIcons/Label_01-02.png" width="40" height="40" class="lazyload lbliconimg lbliconimg_42 tgdd" />
+                        </div>
+                        <p class='result-label temp1'><img width='20' height='20' class='lazyload' alt='TRỢ GIÁ MÙA DỊCH' data-src='https://cdn.tgdd.vn/2020/10/content/icon1-50x50.png'><span>TRỢ GIÁ MÙA DỊCH</span></p>
+                        <h3>Xiaomi Redmi 9T (6GB/128GB)</h3>
+                        <div class="box-p">
+                            <p class="price-old black">4.990.000&#x20AB;</p>
+                            <span class="percent">-16%</span>
+                        </div>
+                        <strong class="price">4.190.000&#x20AB;</strong>
+                        <strong class="price twoprice">Giá rẻ: 4.050.000&#x20AB;</strong>
+                        <div class="item-rating">
+                            <p>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star-dark"></i>
+                                <i class="icon-star-dark"></i>
+                            </p>
+                            <p class="item-rating-total">330</p>
+                        </div>
+
+
+                    </a>
+
+                </div>
+                <div class="item" data-id="226436" data-pos="11">
+                    <a href='/dtdd/vsmart-live-4' class=" main-contain" data-s="Nomal" data-site="1" data-pro="3" data-cache="True" data-name="&#x110;i&#x1EC7;n tho&#x1EA1;i Vsmart Live 4 4GB" data-id="226436" data-price="3290000.0" data-brand="Vsmart" data-cate="&#x110;i&#x1EC7;n tho&#x1EA1;i"
+                        data-box="BoxHome">
+                        <div class="item-label">
+                        </div>
+                        <div class="item-img">
+                            <img data-src="https://cdn.tgdd.vn/Products/Images/42/226436/vsmart-live-4-xanh-la-600x600.jpg" class="lazyload" alt="Vsmart Live 4 4GB" width=210 height=210>
+                            <img src="https://cdn.tgdd.vn/ValueIcons/Label_01-02.png" width="40" height="40" class="lazyload lbliconimg lbliconimg_42 tgdd" />
+                        </div>
+                        <p class='result-label temp1'><img width='20' height='20' class='lazyload' alt='TRỢ GIÁ MÙA DỊCH' data-src='https://cdn.tgdd.vn/2020/10/content/icon1-50x50.png'><span>TRỢ GIÁ MÙA DỊCH</span></p>
+                        <h3>Vsmart Live 4 4GB</h3>
+                        <div class="box-p">
+                            <p class="price-old black">4.090.000&#x20AB;</p>
+                            <span class="percent">-19%</span>
+                        </div>
+                        <strong class="price">3.290.000&#x20AB;</strong>
+                        <p class="item-gift">Quà <b>200.000₫</b></p>
+                        <div class="item-rating">
+                            <p>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star-dark"></i>
+                            </p>
+                            <p class="item-rating-total">269</p>
+                        </div>
+
+
+                    </a>
+
+                </div>
+                <div class="item" data-id="240250" data-pos="12">
+                    <a href='/laptop/lenovo-ideapad-5-14itl05-i5-82fe00krvn' class=" main-contain" data-s="Nomal" data-site="1" data-pro="3" data-cache="True" data-name="Laptop Lenovo IdeaPad 5 14ITL05 i5 1135G7/16GB/512GB/Win10 (82FE00KRVN)" data-id="240250" data-price="19590000.0"
+                        data-brand="Lenovo" data-cate="Laptop" data-box="BoxHome">
+                        <div class="item-label">
+                        </div>
+                        <div class="item-img">
+                            <img data-src="https://cdn.tgdd.vn/Products/Images/44/240250/lenovo-ideapad-5-14itl05-i5-82fe00krvn-600x600.jpg" class="lazyload" alt="Lenovo IdeaPad 5 14ITL05 i5 1135G7 (82FE00KRVN)" width=210 height=210>
+                            <img src="https://cdn.tgdd.vn/ValueIcons/Label_01-01.png" width="40" height="40" class="lazyload lbliconimg lbliconimg_44 tgdd" />
+                        </div>
+                        <p class='result-label temp1'><img width='20' height='20' class='lazyload' alt='Ưu đãi x3 cho HSSV' data-src='https://cdn.tgdd.vn/2020/10/content/icon1-50x50.png'><span>Ưu đãi x3 cho HSSV</span></p>
+                        <h3>Lenovo IdeaPad 5 14ITL05 i5 1135G7 (82FE00KRVN)</h3>
+                        <div class="item-compare">
+                            <span>RAM 16 GB</span>
+                            <span>SSD 512 GB</span>
+                        </div>
+                        <div class="box-p">
+                            <p class="price-old black">19.990.000&#x20AB;</p>
+                        </div>
+                        <strong class="price">19.590.000&#x20AB;</strong>
+                        <p class="item-gift">Quà <b>400.000₫</b></p>
+                        <div class="item-rating">
+                            <p>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star-dark"></i>
+                            </p>
+                            <p class="item-rating-total">8</p>
+                        </div>
+
+
+                    </a>
+
+                </div>
+                <div class="item" data-id="231255" data-pos="13">
+                    <a href='/laptop/apple-macbook-pro-2020-z11c' class=" main-contain" data-s="Nomal" data-site="1" data-pro="3" data-cache="True" data-name="Laptop Apple MacBook Pro M1 2020 16GB/512GB/Space Grey (Z11C)" data-id="231255" data-price="42690000.0" data-brand="MacBook"
+                        data-cate="Laptop" data-box="BoxHome">
+                        <div class="item-label">
+                        </div>
+                        <div class="item-img">
+                            <img data-src="https://cdn.tgdd.vn/Products/Images/44/231255/apple-macbook-pro-2020-z11c-3-600x600.jpg" class="lazyload" alt="MacBook Pro M1 2020 Space Grey (Z11C)" width=210 height=210>
+                        </div>
+                        <p class='result-label temp1'><img width='20' height='20' class='lazyload' alt='Ưu đãi x3 cho HSSV' data-src='https://cdn.tgdd.vn/2020/10/content/icon1-50x50.png'><span>Ưu đãi x3 cho HSSV</span></p>
+                        <h3>MacBook Pro M1 2020 Space Grey (Z11C)</h3>
+                        <div class="item-compare">
+                            <span>RAM 16 GB</span>
+                            <span>SSD 512 GB</span>
+                        </div>
+                        <p class="item-txt-online">Online gia&#x301; re&#x309;</p>
+                        <div class="box-p">
+                            <p class="price-old black">44.990.000&#x20AB;</p>
+                            <span class="percent">-5%</span>
+                        </div>
+                        <strong class="price">42.690.000&#x20AB;</strong>
+                        <p class="item-gift">Quà <b>300.000₫</b></p>
+                        <div class="item-rating">
+                            <p>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                            </p>
+                            <p class="item-rating-total">8</p>
+                        </div>
+
+
+                    </a>
+
+                </div>
+                <div class="item" data-id="247313" data-pos="14">
+                    <a href='/laptop/acer-nitro-5-gaming-an515-57-50ft-i5-nhqd8sv003' class=" main-contain" data-s="Nomal" data-site="1" data-pro="3" data-cache="True" data-name="Laptop Acer Nitro 5 Gaming AN515 57 50FT i5 11400H/16GB/512GB/4GB RTX3050/144Hz/Balo/Win10 (NH.QD8SV.003)"
+                        data-id="247313" data-price="26490000.0" data-brand="Acer" data-cate="Laptop" data-box="BoxHome">
+                        <div class="item-label">
+                        </div>
+                        <div class="item-img">
+                            <img data-src="https://cdn.tgdd.vn/Products/Images/44/247313/acer-nitro-5-gaming-an515-57-50ft-i5-nhqd8sv003-600x600.jpg" class="lazyload" alt="Acer Nitro 5 Gaming AN515 57 50FT i5 11400H (NH.QD8SV.003)" width=210 height=210>
+                            <img src="https://cdn.tgdd.vn/ValueIcons/11th-gen-core-i5-processors-badge-rwd.png.rendition.intel.web.550.550.jpg" width="40" height="40" class="lazyload lbliconimg lbliconimg_44 tgdd" />
+                        </div>
+                        <p class='result-label temp1'><img width='20' height='20' class='lazyload' alt='Ưu đãi x3 cho HSSV' data-src='https://cdn.tgdd.vn/2020/10/content/icon1-50x50.png'><span>Ưu đãi x3 cho HSSV</span></p>
+                        <h3>Acer Nitro 5 Gaming AN515 57 50FT i5 11400H (NH.QD8SV.003)</h3>
+                        <div class="item-compare">
+                            <span>RAM 16 GB</span>
+                            <span>SSD 512 GB</span>
+                        </div>
+                        <div class="box-p">
+                            <p class="price-old black">27.490.000&#x20AB;</p>
+                        </div>
+                        <strong class="price">26.490.000&#x20AB;</strong>
+                        <p class="item-gift">Quà <b>2.180.000₫</b></p>
+
+
+                    </a>
+
+                </div>
+                <div class="item" data-id="248755" data-pos="15">
+                    <a href='/dong-ho-thong-minh/samsung-galaxy-watch-4-lte-44mm' class=" main-contain" data-s="Nomal" data-site="1" data-pro="3" data-cache="True" data-name="Samsung Galaxy Watch 4 LTE 44mm" data-id="248755" data-price="7990000.0" data-brand="Samsung" data-cate="&#x110;&#x1ED3;ng h&#x1ED3; th&#xF4;ng minh"
+                        data-box="BoxHome">
+                        <div class="item-label">
+                        </div>
+                        <div class="item-img">
+                            <img data-src="https://cdn.tgdd.vn/Products/Images/7077/248755/samsung-galaxy-watch-4-lte-44mm-den-thumb-1-1-600x600.jpg" class="lazyload" alt="Samsung Galaxy Watch 4 LTE 44mm" width=210 height=210>
+                            <img src="https://cdn.tgdd.vn/ValueIcons/Label_01-05.png" width="40" height="40" class="lazyload lbliconimg lbliconimg_7077 tgdd" />
+                        </div>
+                        <p class='result-label temp2'><img width='20' height='20' class='lazyload' alt='ĐĂNG KÝ THÔNG TIN' data-src='https://cdn.tgdd.vn/2020/10/content/icon2-50x50.png'><span>ĐĂNG KÝ THÔNG TIN</span></p>
+                        <h3>Samsung Galaxy Watch 4 LTE 44mm</h3>
+                        <div class="item-compare">
+                            <span>&#x110;o n&#x1ED3;ng &#x111;&#x1ED9; oxy (SpO2)</span>
+                        </div>
+                        <p class="item-txt-online">H&#xE0;ng s&#x1EAF;p v&#x1EC1;</p>
+                        <strong class="price">7.990.000&#x20AB;</strong>
+
+
+                    </a>
+
+                </div>
+                <div class="item" data-id="229044" data-pos="16">
+                    <a href='/dong-ho-thong-minh/apple-watch-s6-40mm-vien-nhom-day-cao-su' class=" main-contain" data-s="Nomal" data-site="1" data-pro="3" data-cache="True" data-name="Apple Watch S6 40mm vi&#x1EC1;n nh&#xF4;m d&#xE2;y cao su h&#x1ED3;ng" data-id="229044"
+                        data-price="9491000.0" data-brand="Apple" data-cate="&#x110;&#x1ED3;ng h&#x1ED3; th&#xF4;ng minh" data-box="BoxHome">
+                        <div class="item-label">
+                        </div>
+                        <div class="item-img">
+                            <img data-src="https://cdn.tgdd.vn/Products/Images/7077/229044/apple-watch-s6-40mm-vien-nhom-day-cao-su-thumb-229044-600x600.jpg" class="lazyload" alt="Apple Watch S6 40mm vi&#x1EC1;n nh&#xF4;m d&#xE2;y cao su" width=210 height=210>
+                        </div>
+                        <p class='result-label temp1'><img width='20' height='20' class='lazyload' alt='TRỢ GIÁ MÙA DỊCH' data-src='https://cdn.tgdd.vn/2020/10/content/icon1-50x50.png'><span>TRỢ GIÁ MÙA DỊCH</span></p>
+                        <h3>Apple Watch S6 40mm viền nhôm dây cao su hồng</h3>
+                        <div class="item-compare">
+                            <span>&#x110;o n&#x1ED3;ng &#x111;&#x1ED9; oxy (SpO2)</span>
+                            <span>C&#xF3; nghe g&#x1ECD;i</span>
+                        </div>
+                        <p class="item-txt-online">Online gia&#x301; re&#x309;</p>
+                        <div class="box-p">
+                            <p class="price-old black">11.990.000&#x20AB;</p>
+                            <span class="percent">-20%</span>
+                        </div>
+                        <strong class="price">9.491.000&#x20AB;</strong>
+
+
+                    </a>
+
+                </div>
+                <div class="item" data-id="226476" data-pos="17">
+                    <a href='/dong-ho-thong-minh/samsung-galaxy-watch-3-lte-45mm' class=" main-contain" data-s="Nomal" data-site="1" data-pro="3" data-cache="True" data-name="Samsung Galaxy Watch 3 LTE 45mm vi&#x1EC1;n th&#xE9;p d&#xE2;y da" data-id="226476" data-price="6990000.0"
+                        data-brand="Samsung" data-cate="&#x110;&#x1ED3;ng h&#x1ED3; th&#xF4;ng minh" data-box="BoxHome">
+                        <div class="item-label">
+                        </div>
+                        <div class="item-img">
+                            <img data-src="https://cdn.tgdd.vn/Products/Images/7077/226476/samsung-galaxy-watch-3-lte-45mm-thumb-1-1-600x600.jpg" class="lazyload" alt="Samsung Galaxy Watch 3 LTE 45mm vi&#x1EC1;n th&#xE9;p d&#xE2;y da" width=210 height=210>
+                        </div>
+                        <p class='result-label temp1'><img width='20' height='20' class='lazyload' alt='Hotsale GIẢM SỐC' data-src='https://cdn.tgdd.vn/2020/10/content/icon1-50x50.png'><span>Hotsale GIẢM SỐC</span></p>
+                        <h3>Samsung Galaxy Watch 3 LTE 45mm viền thép dây da</h3>
+                        <div class="item-compare">
+                            <span>&#x110;o n&#x1ED3;ng &#x111;&#x1ED9; oxy (SpO2)</span>
+                            <span>C&#xF3; nghe g&#x1ECD;i</span>
+                        </div>
+                        <div class="box-p">
+                            <p class="price-old black">10.990.000&#x20AB;</p>
+                            <span class="percent">-36%</span>
+                        </div>
+                        <strong class="price">6.990.000&#x20AB;</strong>
+                        <div class="item-rating">
+                            <p>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star-dark"></i>
+                            </p>
+                            <p class="item-rating-total">52</p>
+                        </div>
+
+
+                    </a>
+
+                </div>
+                <div class="item" data-id="228895" data-pos="18">
+                    <a href='/tai-nghe/tai-nghe-bluetooth-true-wireless-lg-hbs-fn6' class=" main-contain" data-s="Nomal" data-site="1" data-pro="3" data-cache="True" data-name="Tai nghe Bluetooth True Wireless LG Tone Free HBS-FN6" data-id="228895" data-price="1390000.0"
+                        data-brand="LG" data-cate="Tai nghe" data-box="BoxHome">
+                        <div class="item-label">
+                        </div>
+                        <div class="item-img">
+                            <img data-src="https://cdn.tgdd.vn/Products/Images/54/228895/tai-nghe-bluetooth-true-wireless-lg-hbs-fn6-avatar-1-1-600x600.jpg" class="lazyload" alt="Tai nghe Bluetooth True Wireless LG Tone Free HBS-FN6" width=210 height=210>
+                        </div>
+                        <p class='result-label temp1'><img width='20' height='20' class='lazyload' alt='TRỢ GIÁ MÙA DỊCH' data-src='https://cdn.tgdd.vn/2020/10/content/icon1-50x50.png'><span>TRỢ GIÁ MÙA DỊCH</span></p>
+                        <h3>Tai nghe Bluetooth True Wireless LG Tone Free HBS-FN6</h3>
+                        <div class="item-compare">
+                            <span>Meridian</span>
+                        </div>
+                        <p class="item-txt-online">Online gia&#x301; re&#x309;</p>
+                        <div class="box-p">
+                            <p class="price-old black">3.490.000&#x20AB;</p>
+                            <span class="percent">-60%</span>
+                        </div>
+                        <strong class="price">1.390.000&#x20AB;</strong>
+                        <div class="item-rating">
+                            <p>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star-dark"></i>
+                                <i class="icon-star-dark"></i>
+                            </p>
+                            <p class="item-rating-total">9</p>
+                        </div>
+
+
+                    </a>
+
+                </div>
+                <div class="item" data-id="227186" data-pos="19">
+                    <a href='/loa-laptop/loa-bluetooth-lg-xboom-go-pl5-xanh-den' class=" main-contain" data-s="Nomal" data-site="1" data-pro="3" data-cache="True" data-name="Loa Bluetooth LG Xboom Go PL5 Xanh &#x110;en" data-id="227186" data-price="1490000.0" data-brand="LG"
+                        data-cate="Loa" data-box="BoxHome">
+                        <div class="item-label">
+                        </div>
+                        <div class="item-img">
+                            <img data-src="https://cdn.tgdd.vn/Products/Images/2162/227186/loa-bluetooth-lg-xboom-go-pl5-xanh-den-600x600.jpg" class="lazyload" alt="Loa Bluetooth LG Xboom Go PL5" width=210 height=210>
+                        </div>
+                        <p class='result-label temp1'><img width='20' height='20' class='lazyload' alt='TRỢ GIÁ MÙA DỊCH' data-src='https://cdn.tgdd.vn/2020/10/content/icon1-50x50.png'><span>TRỢ GIÁ MÙA DỊCH</span></p>
+                        <h3>Loa Bluetooth LG Xboom Go PL5 Xanh Đen</h3>
+                        <div class="item-compare">
+                            <span>20 W</span>
+                        </div>
+                        <p class="item-txt-online">Online gia&#x301; re&#x309;</p>
+                        <div class="box-p">
+                            <p class="price-old black">3.590.000&#x20AB;</p>
+                            <span class="percent">-58%</span>
+                        </div>
+                        <strong class="price">1.490.000&#x20AB;</strong>
+
+
+                    </a>
+
+                </div>
+                <div class="item" data-id="229275" data-pos="20">
+                    <a href='/sac-dtdd/sac-du-phong-10000mah-khong-day-xmobile-p106wd' class=" main-contain" data-s="Nomal" data-site="1" data-pro="3" data-cache="True" data-name="Pin s&#x1EA1;c d&#x1EF1; ph&#xF2;ng kh&#xF4;ng d&#xE2;y Polymer 10.000 mAh Type C PD QC3.0 Xmobile PowerLite P106WD"
+                        data-id="229275" data-price="450000.0" data-brand="Xmobile" data-cate="S&#x1EA1;c d&#x1EF1; ph&#xF2;ng" data-box="BoxHome">
+                        <div class="item-label">
+                        </div>
+                        <div class="item-img">
+                            <img data-src="https://cdn.tgdd.vn/Products/Images/57/229275/sac-du-phong-10000mah-khong-day-xmobile-p106wd-avatar-1-600x600.jpg" class="lazyload" alt="Xmobile PowerLite P106WD" width=210 height=210>
+                        </div>
+                        <p class='result-label temp1'><img width='20' height='20' class='lazyload' alt='TRỢ GIÁ MÙA DỊCH' data-src='https://cdn.tgdd.vn/2020/10/content/icon1-50x50.png'><span>TRỢ GIÁ MÙA DỊCH</span></p>
+                        <h3>Pin sạc dự phòng không dây Polymer 10.000 mAh Type C PD QC3.0 Xmobile PowerLite P106WD</h3>
+                        <p class="item-txt-online">Online gia&#x301; re&#x309;</p>
+                        <div class="box-p">
+                            <p class="price-old black">750.000&#x20AB;</p>
+                            <span class="percent">-40%</span>
+                        </div>
+                        <strong class="price">450.000&#x20AB;</strong>
+                        <div class="item-rating">
+                            <p>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star-dark"></i>
+                                <i class="icon-star-dark"></i>
+                            </p>
+                            <p class="item-rating-total">9</p>
+                        </div>
+
+
+                    </a>
+
+                </div>
+            </div>
+        </div>
+        <!-- End -->
+        <!-- Bạn đã xem -->
+        <div class="watched"></div>
+        <!-- End -->
+        <!-- Điện thoại -->
+        <div class="box-common">
+            <div class="box-common__top clearfix">
+                <h2 class="box-common__title">&#x110;I&#x1EC6;N THO&#x1EA0;I N&#x1ED4;I B&#x1EAC;T NH&#x1EA4;T</h2>
+
+                <div class="box-common__link" data-size="3">
+                    <a href="https://www.thegioididong.com/dtdd/samsung-galaxy-a72" data-index="1">
+                                                Samsung Galaxy A72
+                                            </a>
+                    <a href="https://www.thegioididong.com/dtdd/iphone-12-pro-max" data-index="2">
+                                                iPhone 12 Pro Max 128GB
+                                            </a>
+                    <a href="https://www.thegioididong.com/dtdd/oppo-reno6-z-5g" data-index="3">
+                                                Oppo Reno6 Z 5G
+                                            </a>
+                    <a class="readmore-btn" href="dtdd">Xem tất cả <b>187</b> &#x110;i&#x1EC7;n tho&#x1EA1;i</a>
+                </div>
+            </div>
+            <div class="box-common__main">
+                <div class="listproduct " data-size="10">
+                    <div class="item" data-id="226935" data-pos="1">
+                        <a href='/dtdd/samsung-galaxy-z-fold-3' class=" main-contain" data-s="Nomal" data-site="1" data-pro="3" data-cache="True" data-name="&#x110;i&#x1EC7;n tho&#x1EA1;i Samsung Galaxy Z Fold3 5G 256GB" data-id="226935" data-price="41990000.0" data-brand="Samsung"
+                            data-cate="&#x110;i&#x1EC7;n tho&#x1EA1;i" data-box="BoxHome">
+                            <div class="item-label">
+                            </div>
+                            <div class="item-img">
+                                <img data-src="https://cdn.tgdd.vn/Products/Images/42/226935/samsung-galaxy-z-fold-3-silver-600x600.jpg" class="lazyload" alt="Samsung Galaxy Z Fold3 5G 256GB" width=210 height=210>
+                                <img src="https://cdn.tgdd.vn/ValueIcons/label-moi-ra-mat-fnal.png" width="40" height="40" class="lazyload lbliconimg lbliconimg_42 tgdd" />
+                            </div>
+                            <p class="preorder">Đặt trước đến 16/09</p>
+                            <h3>Samsung Galaxy Z Fold3 5G 256GB</h3>
+                            <p class="item-txt-online">H&#xE0;ng s&#x1EAF;p v&#x1EC1;</p>
+                            <strong class="price">41.990.000&#x20AB;</strong>
+                            <p class="item-gift">Tặng PMH 2 triệu, Bao da kèm S Pen, Gói đặc quyền cao cấp</p>
+
+
+                        </a>
+
+                    </div>
+                    <div class="item" data-id="213031" data-pos="2">
+                        <a href='/dtdd/iphone-12' class=" main-contain" data-s="Nomal" data-site="1" data-pro="3" data-cache="True" data-name="&#x110;i&#x1EC7;n tho&#x1EA1;i iPhone 12 64GB" data-id="213031" data-price="20490000.0" data-brand="iPhone (Apple)" data-cate="&#x110;i&#x1EC7;n tho&#x1EA1;i"
+                            data-box="BoxHome">
+                            <div class="item-label">
+                            </div>
+                            <div class="item-img">
+                                <img data-src="https://cdn.tgdd.vn/Products/Images/42/213031/iphone-12-do-600x600.jpg" class="lazyload" alt="iPhone 12 64GB" width=210 height=210>
+                            </div>
+                            <p class='result-label temp1'><img width='20' height='20' class='lazyload' alt='TRỢ GIÁ MÙA DỊCH' data-src='https://cdn.tgdd.vn/2020/10/content/icon1-50x50.png'><span>TRỢ GIÁ MÙA DỊCH</span></p>
+                            <h3>iPhone 12 64GB</h3>
+                            <p class="item-txt-online">Online gia&#x301; re&#x309;</p>
+                            <div class="box-p">
+                                <p class="price-old black">22.990.000&#x20AB;</p>
+                                <span class="percent">-10%</span>
+                            </div>
+                            <strong class="price">20.490.000&#x20AB;</strong>
+                            <p class="item-gift">Quà <b>400.000₫</b></p>
+                            <div class="item-rating">
+                                <p>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star-dark"></i>
+                                </p>
+                                <p class="item-rating-total">68</p>
+                            </div>
+
+
+                        </a>
+
+                    </div>
+                    <div class="item" data-id="233241" data-pos="3">
+                        <a href='/dtdd/xiaomi-mi-11-lite-4g' class=" main-contain" data-s="Nomal" data-site="1" data-pro="3" data-cache="False" data-name="&#x110;i&#x1EC7;n tho&#x1EA1;i Xiaomi Mi 11 Lite" data-id="233241" data-price="7590000.0" data-brand="Xiaomi" data-cate="&#x110;i&#x1EC7;n tho&#x1EA1;i"
+                            data-box="BoxHome">
+                            <div class="item-label">
+                            </div>
+                            <div class="item-img">
+                                <img data-src="https://cdn.tgdd.vn/Products/Images/42/233241/xiaomi-mi-11-lite-4g-pink-1-600x600.jpg" class="lazyload" alt="Xiaomi Mi 11 Lite" width=210 height=210>
+                                <img src="https://cdn.tgdd.vn/ValueIcons/Label_01-05.png" width="40" height="40" class="lazyload lbliconimg lbliconimg_42 tgdd" />
+                            </div>
+                            <p class='result-label temp1'><img width='20' height='20' class='lazyload' alt='TRỢ GIÁ MÙA DỊCH' data-src='https://cdn.tgdd.vn/2020/10/content/icon1-50x50.png'><span>TRỢ GIÁ MÙA DỊCH</span></p>
+                            <h3>Xiaomi Mi 11 Lite</h3>
+                            <div class="box-p">
+                                <p class="price-old black">7.990.000&#x20AB;</p>
+                                <span class="percent">-5%</span>
+                            </div>
+                            <strong class="price">7.590.000&#x20AB;</strong>
+                            <p class="item-gift">Quà <b>300.000₫</b></p>
+                            <div class="item-rating">
+                                <p>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star-dark"></i>
+                                </p>
+                                <p class="item-rating-total">514</p>
+                            </div>
+
+
+                        </a>
+
+                    </div>
+                    <div class="item" data-id="230630" data-pos="4">
+                        <a href='/dtdd/vivo-y12s-4gb-128gb' class=" main-contain" data-s="Nomal" data-site="1" data-pro="3" data-cache="True" data-name="&#x110;i&#x1EC7;n tho&#x1EA1;i Vivo Y12s (4GB/128GB)" data-id="230630" data-price="3790000.0" data-brand="Vivo" data-cate="&#x110;i&#x1EC7;n tho&#x1EA1;i"
+                            data-box="BoxHome">
+                            <div class="item-label">
+                            </div>
+                            <div class="item-img">
+                                <img data-src="https://cdn.tgdd.vn/Products/Images/42/230630/vivo-y12s-den-new-600x600-600x600.jpg" class="lazyload" alt="Vivo Y12s (4GB/128GB)" width=210 height=210>
+                            </div>
+                            <p class='result-label temp1'><img width='20' height='20' class='lazyload' alt='TRỢ GIÁ MÙA DỊCH' data-src='https://cdn.tgdd.vn/2020/10/content/icon1-50x50.png'><span>TRỢ GIÁ MÙA DỊCH</span></p>
+                            <h3>Vivo Y12s (4GB/128GB)</h3>
+                            <div class="box-p">
+                                <p class="price-old black">4.290.000&#x20AB;</p>
+                                <span class="percent">-11%</span>
+                            </div>
+                            <strong class="price">3.790.000&#x20AB;</strong>
+                            <p class="item-gift">Quà <b>200.000₫</b></p>
+                            <div class="item-rating">
+                                <p>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star-dark"></i>
+                                    <i class="icon-star-dark"></i>
+                                </p>
+                                <p class="item-rating-total">65</p>
+                            </div>
+
+
+                        </a>
+
+                    </div>
+                    <div class="item" data-id="239747" data-pos="5">
+                        <a href='/dtdd/oppo-reno6-z-5g' class=" main-contain" data-s="Nomal" data-site="1" data-pro="3" data-cache="True" data-name="&#x110;i&#x1EC7;n tho&#x1EA1;i OPPO Reno6 Z 5G" data-id="239747" data-price="9490000.0" data-brand="OPPO" data-cate="&#x110;i&#x1EC7;n tho&#x1EA1;i"
+                            data-box="BoxHome">
+                            <div class="item-label">
+                            </div>
+                            <div class="item-img">
+                                <img data-src="https://cdn.tgdd.vn/Products/Images/42/239747/oppo-reno6-z-5g-aurora-1-600x600.jpg" class="lazyload" alt="OPPO Reno6 Z 5G" width=210 height=210>
+                            </div>
+                            <p class='result-label temp1'><img width='20' height='20' class='lazyload' alt='TRỢ GIÁ MÙA DỊCH' data-src='https://cdn.tgdd.vn/2020/10/content/icon1-50x50.png'><span>TRỢ GIÁ MÙA DỊCH</span></p>
+                            <h3>OPPO Reno6 Z 5G</h3>
+                            <strong class="price">9.490.000&#x20AB;</strong>
+                            <p class="item-gift">Quà <b>300.000₫</b></p>
+
+
+                        </a>
+
+                    </div>
+                    <div class="item" data-id="235440" data-pos="6">
+                        <a href='/dtdd/samsung-galaxy-a52-5g' class=" main-contain" data-s="Nomal" data-site="1" data-pro="3" data-cache="True" data-name="&#x110;i&#x1EC7;n tho&#x1EA1;i Samsung Galaxy A52 5G" data-id="235440" data-price="10990000.0" data-brand="Samsung" data-cate="&#x110;i&#x1EC7;n tho&#x1EA1;i"
+                            data-box="BoxHome">
+                            <div class="item-label">
+                            </div>
+                            <div class="item-img">
+                                <img data-src="https://cdn.tgdd.vn/Products/Images/42/235440/samsung-galaxy-a52-5g-thumb-black-600x600-600x600.jpg" class="lazyload" alt="Samsung Galaxy A52 5G" width=210 height=210>
+                                <img src="https://cdn.tgdd.vn/ValueIcons/Label_01-05.png" width="40" height="40" class="lazyload lbliconimg lbliconimg_42 tgdd" />
+                            </div>
+                            <p class='result-label temp1'><img width='20' height='20' class='lazyload' alt='TRỢ GIÁ MÙA DỊCH' data-src='https://cdn.tgdd.vn/2020/10/content/icon1-50x50.png'><span>TRỢ GIÁ MÙA DỊCH</span></p>
+                            <h3>Samsung Galaxy A52 5G</h3>
+                            <strong class="price">10.990.000&#x20AB;</strong>
+                            <p class="item-gift">Quà <b>300.000₫</b></p>
+                            <div class="item-rating">
+                                <p>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star-dark"></i>
+                                    <i class="icon-star-dark"></i>
+                                </p>
+                                <p class="item-rating-total">205</p>
+                            </div>
+
+
+                        </a>
+
+                    </div>
+                    <div class="item" data-id="240286" data-pos="7">
+                        <a href='/dtdd/vivo-y53s' class=" main-contain" data-s="Nomal" data-site="1" data-pro="3" data-cache="True" data-name="&#x110;i&#x1EC7;n tho&#x1EA1;i Vivo Y53s" data-id="240286" data-price="6990000.0" data-brand="Vivo" data-cate="&#x110;i&#x1EC7;n tho&#x1EA1;i"
+                            data-box="BoxHome">
+                            <div class="item-label">
+                            </div>
+                            <div class="item-img">
+                                <img data-src="https://cdn.tgdd.vn/Products/Images/42/240286/vivo-y53s-den-600x600.jpg" class="lazyload" alt="Vivo Y53s" width=210 height=210>
+                            </div>
+                            <p class='result-label temp1'><img width='20' height='20' class='lazyload' alt='TRỢ GIÁ MÙA DỊCH' data-src='https://cdn.tgdd.vn/2020/10/content/icon1-50x50.png'><span>TRỢ GIÁ MÙA DỊCH</span></p>
+                            <h3>Vivo Y53s</h3>
+                            <strong class="price">6.990.000&#x20AB;</strong>
+                            <p class="item-gift">Quà <b>300.000₫</b></p>
+                            <div class="item-rating">
+                                <p>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star-dark"></i>
+                                    <i class="icon-star-dark"></i>
+                                    <i class="icon-star-dark"></i>
+                                </p>
+                                <p class="item-rating-total">15</p>
+                            </div>
+
+
+                        </a>
+
+                    </div>
+                    <div class="item" data-id="241265" data-pos="8">
+                        <a href='/dtdd/realme-c21y' class=" main-contain" data-s="Nomal" data-site="1" data-pro="3" data-cache="True" data-name="&#x110;i&#x1EC7;n tho&#x1EA1;i Realme C21Y 4GB" data-id="241265" data-price="3690000.0" data-brand="Realme" data-cate="&#x110;i&#x1EC7;n tho&#x1EA1;i"
+                            data-box="BoxHome">
+                            <div class="item-label">
+                            </div>
+                            <div class="item-img">
+                                <img data-src="https://cdn.tgdd.vn/Products/Images/42/241265/realme-c21y-black-600x600.jpg" class="lazyload" alt="Realme C21Y 4GB" width=210 height=210>
+                                <img src="https://cdn.tgdd.vn/ValueIcons/Label_01-05.png" width="40" height="40" class="lazyload lbliconimg lbliconimg_42 tgdd" />
+                            </div>
+                            <h3>Realme C21Y 4GB</h3>
+                            <p class="item-txt-online">Online gia&#x301; re&#x309;</p>
+                            <div class="box-p">
+                                <p class="price-old black">3.990.000&#x20AB;</p>
+                                <span class="percent">-7%</span>
+                            </div>
+                            <strong class="price">3.690.000&#x20AB;</strong>
+                            <p class="item-gift">Quà <b>200.000₫</b></p>
+                            <div class="item-rating">
+                                <p>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star-dark"></i>
+                                    <i class="icon-star-dark"></i>
+                                </p>
+                                <p class="item-rating-total">45</p>
+                            </div>
+
+
+                        </a>
+
+                    </div>
+                    <div class="item" data-id="235971" data-pos="9">
+                        <a href='/dtdd/xiaomi-redmi-note-10-5g' class=" main-contain" data-s="Nomal" data-site="1" data-pro="3" data-cache="False" data-name="&#x110;i&#x1EC7;n tho&#x1EA1;i Xiaomi Redmi Note 10 5G 8GB" data-id="235971" data-price="5990000.0" data-brand="Xiaomi"
+                            data-cate="&#x110;i&#x1EC7;n tho&#x1EA1;i" data-box="BoxHome">
+                            <div class="item-label">
+                            </div>
+                            <div class="item-img">
+                                <img data-src="https://cdn.tgdd.vn/Products/Images/42/235971/xiaomi-redmi-note-10-5g-xanh-bong-dem-1-600x600.jpg" class="lazyload" alt="Xiaomi Redmi Note 10 5G 8GB" width=210 height=210>
+                                <img src="https://cdn.tgdd.vn/ValueIcons/Label_01-05.png" width="40" height="40" class="lazyload lbliconimg lbliconimg_42 tgdd" />
+                            </div>
+                            <h3>Xiaomi Redmi Note 10 5G 8GB</h3>
+                            <strong class="price">5.990.000&#x20AB;</strong>
+                            <p class="item-gift">Quà <b>300.000₫</b></p>
+                            <div class="item-rating">
+                                <p>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star-dark"></i>
+                                </p>
+                                <p class="item-rating-total">274</p>
+                            </div>
+
+
+                        </a>
+
+                    </div>
+                    <div class="item" data-id="237768" data-pos="10">
+                        <a href='/dtdd/vsmart-star-5-4gb-64gb' class=" main-contain" data-s="Nomal" data-site="1" data-pro="3" data-cache="True" data-name="&#x110;i&#x1EC7;n tho&#x1EA1;i Vsmart Star 5 (4GB/64GB)" data-id="237768" data-price="2790000.0" data-brand="Vsmart" data-cate="&#x110;i&#x1EC7;n tho&#x1EA1;i"
+                            data-box="BoxHome">
+                            <div class="item-label">
+                            </div>
+                            <div class="item-img">
+                                <img data-src="https://cdn.tgdd.vn/Products/Images/42/237768/vsmart-star-5-thumb-black-600x600.jpg" class="lazyload" alt="Vsmart Star 5 (4GB/64GB)" width=210 height=210>
+                                <img src="https://cdn.tgdd.vn/ValueIcons/Label_01-02.png" width="40" height="40" class="lazyload lbliconimg lbliconimg_42 tgdd" />
+                            </div>
+                            <p class='result-label temp1'><img width='20' height='20' class='lazyload' alt='TRỢ GIÁ MÙA DỊCH' data-src='https://cdn.tgdd.vn/2020/10/content/icon1-50x50.png'><span>TRỢ GIÁ MÙA DỊCH</span></p>
+                            <h3>Vsmart Star 5 (4GB/64GB)</h3>
+                            <div class="box-p">
+                                <p class="price-old black">3.290.000&#x20AB;</p>
+                                <span class="percent">-15%</span>
+                            </div>
+                            <strong class="price">2.790.000&#x20AB;</strong>
+                            <p class="item-gift">Quà <b>200.000₫</b></p>
+                            <div class="item-rating">
+                                <p>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star-dark"></i>
+                                </p>
+                                <p class="item-rating-total">28</p>
+                            </div>
+
+
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- End -->
+        <!-- Laptop, tablet -->
+        <div class="box-common">
+            <div class="box-common__top clearfix">
+                <h2 class="box-common__title">LAPTOP, TABLET N&#x1ED4;I B&#x1EAC;T NH&#x1EA4;T</h2>
+
+                <div class="box-common__link" data-size="3">
+                    <a href="https://www.thegioididong.com/laptop-asus" data-index="1">
+                                                Laptop Asus
+                                            </a>
+                    <a href="https://www.thegioididong.com/laptop-hp-compaq" data-index="2">
+                                                Laptop HP
+                                            </a>
+                    <a href="https://www.thegioididong.com/may-tinh-bang/ipad-air-4-wifi-64gb-2020" data-index="1">
+                                                iPad Air 4 Wifi 64GB
+                                            </a>
+                    <a href="/laptop" class="readmore-btn laptop"><span>Xem tất cả <b>150</b> Laptop</span></a>
+                    <a href="/may-tinh-bang" class="readmore-btn tablet"><span>Xem tất cả <b>38</b> Tablet</span></a>
+                </div>
+            </div>
+            <div class="box-common__main">
+                <div class="listproduct slider-home owl-carousel" data-size="10">
+                    <div class="item" data-id="232192" data-pos="1">
+                        <a href='/laptop/lenovo-ideapad-slim-5-15itl05-i5-82fg001pvn' class=" main-contain" data-s="Nomal" data-site="1" data-pro="3" data-cache="False" data-name="Laptop Lenovo IdeaPad Slim 5 15ITL05 i5 1135G7/8GB/512GB/Win10 (82FG001PVN)" data-id="232192" data-price="18090000.0"
+                            data-brand="Lenovo" data-cate="Laptop" data-box="BoxHome">
+                            <div class="item-label">
+                            </div>
+                            <div class="item-img">
+                                <img data-src="https://cdn.tgdd.vn/Products/Images/44/232192/lenovo-ideapad-slim-5-15itl05-i5-82fg001pvn-144320-064322-600x600.jpg" class="lazyload" alt="Lenovo IdeaPad Slim 5 15ITL05 (82FG001PVN)" width=210 height=210>
+                                <img src="https://cdn.tgdd.vn/ValueIcons/11th-gen-core-i5-processors-badge-rwd.png.rendition.intel.web.550.550.jpg" width="40" height="40" class="lazyload lbliconimg lbliconimg_44 tgdd" />
+                            </div>
+                            <p class='result-label temp1'><img width='20' height='20' class='lazyload' alt='Ưu đãi x3 cho HSSV' data-src='https://cdn.tgdd.vn/2020/10/content/icon1-50x50.png'><span>Ưu đãi x3 cho HSSV</span></p>
+                            <h3>Lenovo IdeaPad Slim 5 15ITL05 (82FG001PVN)</h3>
+                            <div class="item-compare">
+                                <span>RAM 8 GB</span>
+                                <span>SSD 512 GB</span>
+                            </div>
+                            <div class="box-p">
+                                <p class="price-old black">18.490.000&#x20AB;</p>
+                            </div>
+                            <strong class="price">18.090.000&#x20AB;</strong>
+                            <p class="item-gift">Quà <b>400.000₫</b></p>
+                            <div class="item-rating">
+                                <p>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star-dark"></i>
+                                </p>
+                                <p class="item-rating-total">30</p>
+                            </div>
+
+
+                        </a>
+
+                    </div>
+                    <div class="item" data-id="240249" data-pos="2">
+                        <a href='/laptop/lenovo-ideapad-3-15itl6-i5-82h80042vn' class=" main-contain" data-s="Nomal" data-site="1" data-pro="3" data-cache="False" data-name="Laptop Lenovo IdeaPad 3 15ITL6 i5 1135G7/8GB/512GB/Win10 (82H80042VN)" data-id="240249" data-price="17590000.0"
+                            data-brand="Lenovo" data-cate="Laptop" data-box="BoxHome">
+                            <div class="item-label">
+                            </div>
+                            <div class="item-img">
+                                <img data-src="https://cdn.tgdd.vn/Products/Images/44/240249/lenovo-ideapad-3-15itl6-i5-82h80042vn-600x600.jpg" class="lazyload" alt="Lenovo IdeaPad 3 15ITL6 i5 1135G7 (82H80042VN)" width=210 height=210>
+                                <img src="https://cdn.tgdd.vn/ValueIcons/Label_01-01.png" width="40" height="40" class="lazyload lbliconimg lbliconimg_44 tgdd" />
+                            </div>
+                            <p class='result-label temp1'><img width='20' height='20' class='lazyload' alt='Ưu đãi x3 cho HSSV' data-src='https://cdn.tgdd.vn/2020/10/content/icon1-50x50.png'><span>Ưu đãi x3 cho HSSV</span></p>
+                            <h3>Lenovo IdeaPad 3 15ITL6 i5 1135G7 (82H80042VN)</h3>
+                            <div class="item-compare">
+                                <span>RAM 8 GB</span>
+                                <span>SSD 512 GB</span>
+                            </div>
+                            <div class="box-p">
+                                <p class="price-old black">17.990.000&#x20AB;</p>
+                            </div>
+                            <strong class="price">17.590.000&#x20AB;</strong>
+                            <p class="item-gift">Quà <b>400.000₫</b></p>
+                            <div class="item-rating">
+                                <p>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star-dark"></i>
+                                </p>
+                                <p class="item-rating-total">15</p>
+                            </div>
+
+
+                        </a>
+
+                    </div>
+                    <div class="item" data-id="239538" data-pos="3">
+                        <a href='/laptop/acer-aspire-7-a715-41g-r150-r7-nhq8ssv004' class=" main-contain" data-s="Nomal" data-site="1" data-pro="3" data-cache="True" data-name="Laptop Acer Aspire 7 Gaming A715 41G R150 R7 3750H/8GB/512GB/4GB GTX1650Ti/Balo/Win10 (NH.Q8SSV.004)"
+                            data-id="239538" data-price="20490000.0" data-brand="Acer" data-cate="Laptop" data-box="BoxHome">
+                            <div class="item-label">
+                            </div>
+                            <div class="item-img">
+                                <img data-src="https://cdn.tgdd.vn/Products/Images/44/239538/acer-aspire-7-a715-41g-r150-r7-nhq8ssv004-600x600.jpg" class="lazyload" alt="Acer Aspire 7 Gaming A715 41G R150 R7 3750H (NH.Q8SSV.004)" width=210 height=210>
+                            </div>
+                            <p class='result-label temp1'><img width='20' height='20' class='lazyload' alt='Ưu đãi x3 cho HSSV' data-src='https://cdn.tgdd.vn/2020/10/content/icon1-50x50.png'><span>Ưu đãi x3 cho HSSV</span></p>
+                            <h3>Acer Aspire 7 Gaming A715 41G R150 R7 3750H (NH.Q8SSV.004)</h3>
+                            <div class="item-compare">
+                                <span>RAM 8 GB</span>
+                                <span>SSD 512 GB</span>
+                            </div>
+                            <div class="box-p">
+                                <p class="price-old black">21.490.000&#x20AB;</p>
+                            </div>
+                            <strong class="price">20.490.000&#x20AB;</strong>
+                            <p class="item-gift">Quà <b>2.180.000₫</b></p>
+
+
+                        </a>
+
+                    </div>
+                    <div class="item" data-id="244354" data-pos="4">
+                        <a href='/laptop/hp-pavilion-15-eg0505tu-i5-46m02pa' class=" main-contain" data-s="Nomal" data-site="1" data-pro="3" data-cache="False" data-name="Laptop HP Pavilion 15 eg0505TU i5 1135G7/8GB/512GB/Win10 (46M02PA)" data-id="244354" data-price="18590000.0"
+                            data-brand="HP" data-cate="Laptop" data-box="BoxHome">
+                            <div class="item-label">
+                                <span class="ln-banchay">Bán chạy</span>
+                            </div>
+                            <div class="item-img">
+                                <img data-src="https://cdn.tgdd.vn/Products/Images/44/244354/hp-pavilion-15-eg0505tu-i5-46m02pa-15-600x600.jpg" class="lazyload" alt="HP Pavilion 15 eg0505TU i5 1135G7 (46M02PA)" width=210 height=210>
+                                <img src="https://cdn.tgdd.vn/ValueIcons/11th-gen-core-i5-processors-badge-rwd.png.rendition.intel.web.550.550.jpg" width="40" height="40" class="lazyload lbliconimg lbliconimg_44 tgdd" />
+                            </div>
+                            <p class='result-label temp1'><img width='20' height='20' class='lazyload' alt='Ưu đãi x3 cho HSSV' data-src='https://cdn.tgdd.vn/2020/10/content/icon1-50x50.png'><span>Ưu đãi x3 cho HSSV</span></p>
+                            <h3>HP Pavilion 15 eg0505TU i5 1135G7 (46M02PA)</h3>
+                            <div class="item-compare">
+                                <span>RAM 8 GB</span>
+                                <span>SSD 512 GB</span>
+                            </div>
+                            <div class="box-p">
+                                <p class="price-old black">18.990.000&#x20AB;</p>
+                            </div>
+                            <strong class="price">18.590.000&#x20AB;</strong>
+                            <p class="item-gift">Quà <b>400.000₫</b></p>
+                            <div class="item-rating">
+                                <p>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star-dark"></i>
+                                    <i class="icon-star-dark"></i>
+                                </p>
+                                <p class="item-rating-total">28</p>
+                            </div>
+
+
+                        </a>
+
+                    </div>
+                    <div class="item" data-id="240254" data-pos="5">
+                        <a href='/may-tinh-bang/samsung-galaxy-tab-s7-fan-editon' class=" main-contain" data-s="Nomal" data-site="1" data-pro="3" data-cache="True" data-name="M&#xE1;y t&#xED;nh b&#x1EA3;ng Samsung Galaxy Tab S7 FE" data-id="240254" data-price="11590000.0" data-brand="Samsung"
+                            data-cate="M&#xE1;y t&#xED;nh b&#x1EA3;ng" data-box="BoxHome">
+                            <div class="item-label">
+                                <span class="ln-banchay">Bán chạy</span>
+                            </div>
+                            <div class="item-img">
+                                <img data-src="https://cdn.tgdd.vn/Products/Images/522/240254/samsung-galaxy-tab-s7-fe-green-600x600.jpg" class="lazyload" alt="Samsung Galaxy Tab S7 FE" width=210 height=210>
+                            </div>
+                            <h3>Samsung Galaxy Tab S7 FE</h3>
+                            <div class="box-p">
+                                <p class="price-old black">13.990.000&#x20AB;</p>
+                                <span class="percent">-17%</span>
+                            </div>
+                            <strong class="price">11.590.000&#x20AB;</strong>
+                            <p class="item-gift">Quà <b>300.000₫</b></p>
+                            <div class="item-rating">
+                                <p>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star"></i>
+                                </p>
+                                <p class="item-rating-total">33</p>
+                            </div>
+
+
+                        </a>
+
+                    </div>
+                    <div class="item" data-id="244385" data-pos="6">
+                        <a href='/laptop/dell-g3-15-i7-p89f002bwh' class=" main-contain" data-s="Nomal" data-site="1" data-pro="3" data-cache="False" data-name="Laptop Dell Gaming G3 15 i7 10750H/16GB/512GB/6GB GTX1660Ti/120Hz/Win10 (P89F002BWH)" data-id="244385" data-price="31290000.0"
+                            data-brand="Dell" data-cate="Laptop" data-box="BoxHome">
+                            <div class="item-label">
+                            </div>
+                            <div class="item-img">
+                                <img data-src="https://cdn.tgdd.vn/Products/Images/44/244385/dell-g3-15-i7-p89f002bwh-16-600x600.jpg" class="lazyload" alt="Dell Gaming G3 15 i7 10750H (P89F002BWH)" width=210 height=210>
+                                <img src="https://cdn.tgdd.vn/ValueIcons/Label-Intel-Gen10.png" width="40" height="40" class="lazyload lbliconimg lbliconimg_44 tgdd" />
+                            </div>
+                            <p class='result-label temp1'><img width='20' height='20' class='lazyload' alt='Ưu đãi x3 cho HSSV' data-src='https://cdn.tgdd.vn/2020/10/content/icon1-50x50.png'><span>Ưu đãi x3 cho HSSV</span></p>
+                            <h3>Dell Gaming G3 15 i7 10750H (P89F002BWH)</h3>
+                            <div class="item-compare">
+                                <span>RAM 16 GB</span>
+                                <span>SSD 512 GB</span>
+                            </div>
+                            <div class="box-p">
+                                <p class="price-old black">31.990.000&#x20AB;</p>
+                            </div>
+                            <strong class="price">31.290.000&#x20AB;</strong>
+                            <p class="item-gift">Quà <b>400.000₫</b></p>
+
+
+                        </a>
+
+                    </div>
+                    <div class="item" data-id="236022" data-pos="7">
+                        <a href='/laptop/asus-uf-gaming-fx506lh-i5-hn002t' class=" main-contain" data-s="Nomal" data-site="1" data-pro="3" data-cache="False" data-name="Laptop Asus TUF Gaming FX506LH i5 10300H/8GB/512GB/144Hz/4GB GTX1650/Win10 (HN002T)" data-id="236022" data-price="21490000.0"
+                            data-brand="Asus" data-cate="Laptop" data-box="BoxHome">
+                            <div class="item-label">
+                            </div>
+                            <div class="item-img">
+                                <img data-src="https://cdn.tgdd.vn/Products/Images/44/236022/asus-uf-gaming-fx506lh-i5-hn002t-15-600x600.jpg" class="lazyload" alt="Asus TUF Gaming FX506LH i5 10300H (HN002T)" width=210 height=210>
+                                <img src="https://cdn.tgdd.vn/ValueIcons/Label_01-01.png" width="40" height="40" class="lazyload lbliconimg lbliconimg_44 tgdd" />
+                            </div>
+                            <p class='result-label temp1'><img width='20' height='20' class='lazyload' alt='Ưu đãi x3 cho HSSV' data-src='https://cdn.tgdd.vn/2020/10/content/icon1-50x50.png'><span>Ưu đãi x3 cho HSSV</span></p>
+                            <h3>Asus TUF Gaming FX506LH i5 10300H (HN002T)</h3>
+                            <div class="item-compare">
+                                <span>RAM 8 GB</span>
+                                <span>SSD 512 GB</span>
+                            </div>
+                            <div class="box-p">
+                                <p class="price-old black">21.990.000&#x20AB;</p>
+                            </div>
+                            <strong class="price">21.490.000&#x20AB;</strong>
+                            <p class="item-gift">Quà <b>400.000₫</b></p>
+                            <div class="item-rating">
+                                <p>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star-dark"></i>
+                                    <i class="icon-star-dark"></i>
+                                </p>
+                                <p class="item-rating-total">12</p>
+                            </div>
+
+
+                        </a>
+
+                    </div>
+                    <div class="item" data-id="242530" data-pos="8">
+                        <a href='/laptop/lenovo-ideapad-5-15itl05-i5-82fg00p5vn' class=" main-contain" data-s="Nomal" data-site="1" data-pro="3" data-cache="False" data-name="Laptop Lenovo Ideapad 5 15ITL05 i5 1135G7/8GB/512GB/2GB MX450/Win10 (82FG00P5VN)" data-id="242530" data-price="20590000.0"
+                            data-brand="Lenovo" data-cate="Laptop" data-box="BoxHome">
+                            <div class="item-label">
+                            </div>
+                            <div class="item-img">
+                                <img data-src="https://cdn.tgdd.vn/Products/Images/44/242530/lenovo-ideapad-5-15itl05-i5-82fg00p5vn-600x600.jpg" class="lazyload" alt="Lenovo Ideapad 5 15ITL05 i5 1135G7 (82FG00P5VN)" width=210 height=210>
+                                <img src="https://cdn.tgdd.vn/ValueIcons/11th-gen-core-i5-processors-badge-rwd.png.rendition.intel.web.550.550.jpg" width="40" height="40" class="lazyload lbliconimg lbliconimg_44 tgdd" />
+                            </div>
+                            <p class='result-label temp1'><img width='20' height='20' class='lazyload' alt='Ưu đãi x3 cho HSSV' data-src='https://cdn.tgdd.vn/2020/10/content/icon1-50x50.png'><span>Ưu đãi x3 cho HSSV</span></p>
+                            <h3>Lenovo Ideapad 5 15ITL05 i5 1135G7 (82FG00P5VN)</h3>
+                            <div class="item-compare">
+                                <span>RAM 8 GB</span>
+                                <span>SSD 512 GB</span>
+                            </div>
+                            <div class="box-p">
+                                <p class="price-old black">20.990.000&#x20AB;</p>
+                            </div>
+                            <strong class="price">20.590.000&#x20AB;</strong>
+                            <p class="item-gift">Quà <b>400.000₫</b></p>
+                            <div class="item-rating">
+                                <p>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star"></i>
+                                </p>
+                                <p class="item-rating-total">8</p>
+                            </div>
+
+
+                        </a>
+
+                    </div>
+                    <div class="item" data-id="231253" data-pos="9">
+                        <a href='/laptop/apple-macbook-pro-2020-m1-myd82saa' class=" main-contain" data-s="Nomal" data-site="1" data-pro="3" data-cache="False" data-name="Laptop Apple MacBook Pro M1 2020 8GB/256GB/Space Grey (MYD82SA/A)" data-id="231253" data-price="33190000.0"
+                            data-brand="MacBook" data-cate="Laptop" data-box="BoxHome">
+                            <div class="item-label">
+                            </div>
+                            <div class="item-img">
+                                <img data-src="https://cdn.tgdd.vn/Products/Images/44/231253/apple-macbook-pro-2020-m1-myd82saa-274121-084107-600x600.jpg" class="lazyload" alt="MacBook Pro M1 2020 Space Grey (MYD82SA/A)" width=210 height=210>
+                            </div>
+                            <p class='result-label temp1'><img width='20' height='20' class='lazyload' alt='Ưu đãi x3 cho HSSV' data-src='https://cdn.tgdd.vn/2020/10/content/icon1-50x50.png'><span>Ưu đãi x3 cho HSSV</span></p>
+                            <h3>MacBook Pro M1 2020 Space Grey (MYD82SA/A)</h3>
+                            <div class="item-compare">
+                                <span>RAM 8 GB</span>
+                                <span>SSD 256 GB</span>
+                            </div>
+                            <p class="item-txt-online">Online gia&#x301; re&#x309;</p>
+                            <div class="box-p">
+                                <p class="price-old black">34.990.000&#x20AB;</p>
+                                <span class="percent">-5%</span>
+                            </div>
+                            <strong class="price">33.190.000&#x20AB;</strong>
+                            <p class="item-gift">Quà <b>300.000₫</b></p>
+
+
+                        </a>
+
+                    </div>
+                    <div class="item" data-id="233257" data-pos="10">
+                        <a href='/may-tinh-bang/huawei-matepad-t10s' class=" main-contain" data-s="Nomal" data-site="1" data-pro="3" data-cache="False" data-name="M&#xE1;y t&#xED;nh b&#x1EA3;ng Huawei MatePad T10s (N&#x1EC1;n t&#x1EA3;ng Huawei Mobile Service)" data-id="233257"
+                            data-price="5140000.0" data-brand="Huawei" data-cate="M&#xE1;y t&#xED;nh b&#x1EA3;ng" data-box="BoxHome">
+                            <div class="item-label">
+                            </div>
+                            <div class="item-img">
+                                <img data-src="https://cdn.tgdd.vn/Products/Images/522/233257/huawei-t10s-600x600-600x600.jpg" class="lazyload" alt="Huawei MatePad T10s (N&#x1EC1;n t&#x1EA3;ng Huawei Mobile Service)" width=210 height=210>
+                                <img src="https://cdn.tgdd.vn/ValueIcons/Label_01-05.png" width="40" height="40" class="lazyload lbliconimg lbliconimg_522 tgdd" />
+                            </div>
+                            <h3>Huawei MatePad T10s (Nền tảng Huawei Mobile Service)</h3>
+                            <div class="box-p">
+                                <p class="price-old black">5.490.000&#x20AB;</p>
+                                <span class="percent">-6%</span>
+                            </div>
+                            <strong class="price">5.140.000&#x20AB;</strong>
+                            <p class="item-gift">Quà <b>300.000₫</b></p>
+                            <div class="item-rating">
+                                <p>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star-dark"></i>
+                                </p>
+                                <p class="item-rating-total">26</p>
+                            </div>
+
+
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- End -->
+        <!-- Phụ kiện -->
+        <div class="box-common" data-html-id="3465">
+            <div class="box-common__top clearfix">
+                <h2 class="box-common__title">PH&#x1EE4; KI&#x1EC6;N N&#x1ED4;I B&#x1EAC;T NH&#x1EA4;T</h2>
+
+                <div class="box-common__link" data-size="5">
+                    <a href="https://www.thegioididong.com/sac-dtdd" data-index="1">
+                                                S&#x1EA1;c d&#x1EF1; ph&#xF2;ng
+                                            </a>
+                    <a href="https://www.thegioididong.com/sac-cap" data-index="2">
+                                                C&#xE1;p s&#x1EA1;c
+                                            </a>
+                    <a href="https://www.thegioididong.com/tai-nghe" data-index="3">
+                                                Tai nghe
+                                            </a>
+                    <a href="https://www.thegioididong.com/loa-laptop" data-index="4">
+                                                Loa
+                                            </a>
+                    <a href="https://www.thegioididong.com/op-lung-flipcover" data-index="5">
+                                                &#x1ED0;p l&#x1B0;ng
+                                            </a>
+                    <a class="readmore-btn accessory" href="/phu-kien">Xem tất cả Phụ kiện</a>
+                </div>
+            </div>
+            <div class="box-common__main">
+                <div class="listproduct slider-home owl-carousel" data-size="10">
+                    <div class="item" data-id="248452" data-pos="1">
+                        <a href='/tai-nghe/bluetooth-true-wireless-samsung-buds-2-r177n' class=" main-contain" data-s="Nomal" data-site="1" data-pro="3" data-cache="True" data-name="Tai nghe Bluetooth True Wireless Samsung Galaxy Buds 2 R177N" data-id="248452" data-price="2990000.0"
+                            data-brand="Samsung" data-cate="Tai nghe" data-box="BoxHome">
+                            <div class="item-label">
+                            </div>
+                            <div class="item-img">
+                                <img data-src="https://cdn.tgdd.vn/Products/Images/54/248452/bluetooth-true-wireless-samsung-buds-2-r177n-avatar2-600x600.jpg" class="lazyload" alt="Tai nghe Bluetooth True Wireless Samsung Galaxy Buds 2 R177N" width=210 height=210>
+                            </div>
+                            <h3>Tai nghe Bluetooth True Wireless Samsung Galaxy Buds 2 R177N</h3>
+                            <div class="item-compare">
+                                <span>Active Noise Cancelling</span>
+                                <span>Ambient Sound</span>
+                            </div>
+                            <p class="item-txt-online">H&#xE0;ng s&#x1EAF;p v&#x1EC1;</p>
+                            <strong class="price">2.990.000&#x20AB;</strong>
+
+
+                        </a>
+
+                    </div>
+                    <div class="item" data-id="248455" data-pos="2">
+                        <a href='/tai-nghe/bluetooth-true-wireless-samsung-buds-2-r177n-trang' class=" main-contain" data-s="Nomal" data-site="1" data-pro="3" data-cache="True" data-name="Tai nghe Bluetooth True Wireless Samsung Galaxy Buds 2 R177N Tr&#x1EAF;ng" data-id="248455"
+                            data-price="2990000.0" data-brand="Samsung" data-cate="Tai nghe" data-box="BoxHome">
+                            <div class="item-label">
+                            </div>
+                            <div class="item-img">
+                                <img data-src="https://cdn.tgdd.vn/Products/Images/54/248455/bluetooth-true-wireless-samsung-buds-2-r177n-trang-ava-600x600.jpg" class="lazyload" alt="Tai nghe Bluetooth True Wireless Samsung Galaxy Buds 2 R177N Tr&#x1EAF;ng" width=210 height=210>
+                                <img src="https://cdn.tgdd.vn/ValueIcons/Label_01-05.png" width="40" height="40" class="lazyload lbliconimg lbliconimg_54 tgdd" />
+                            </div>
+                            <h3>Tai nghe Bluetooth True Wireless Samsung Galaxy Buds 2 R177N Trắng</h3>
+                            <div class="item-compare">
+                                <span>Active Noise Cancelling</span>
+                                <span>Ambient Sound</span>
+                            </div>
+                            <p class="item-txt-online">H&#xE0;ng s&#x1EAF;p v&#x1EC1;</p>
+                            <strong class="price">2.990.000&#x20AB;</strong>
+
+
+                        </a>
+
+                    </div>
+                    <div class="item" data-id="242034" data-pos="3">
+                        <a href='/tai-nghe/bluetooth-true-wireless-galaxy-buds-pro-bac' class=" main-contain" data-s="Nomal" data-site="1" data-pro="3" data-cache="False" data-name="Tai nghe Bluetooth True Wireless Galaxy Buds Pro B&#x1EA1;c" data-id="242034" data-price="3990000.0"
+                            data-brand="Samsung" data-cate="Tai nghe" data-box="BoxHome">
+                            <div class="item-label">
+                            </div>
+                            <div class="item-img">
+                                <img data-src="https://cdn.tgdd.vn/Products/Images/54/242034/bluetooth-true-wireless-galaxy-buds-pro-bac-ava-600x600.jpg" class="lazyload" alt="Tai nghe Bluetooth True Wireless Galaxy Buds Pro B&#x1EA1;c" width=210 height=210>
+                                <img src="https://cdn.tgdd.vn/ValueIcons/Label_01-05.png" width="40" height="40" class="lazyload lbliconimg lbliconimg_54 tgdd" />
+                            </div>
+                            <p class='result-label temp1'><img width='20' height='20' class='lazyload' alt='TRỢ GIÁ MÙA DỊCH' data-src='https://cdn.tgdd.vn/2020/10/content/icon1-50x50.png'><span>TRỢ GIÁ MÙA DỊCH</span></p>
+                            <h3>Tai nghe Bluetooth True Wireless Galaxy Buds Pro Bạc</h3>
+                            <div class="item-compare">
+                                <span>Active Noise Cancellation</span>
+                            </div>
+                            <div class="box-p">
+                                <p class="price-old black">4.990.000&#x20AB;</p>
+                                <span class="percent">-20%</span>
+                            </div>
+                            <strong class="price">3.990.000&#x20AB;</strong>
+
+
+                        </a>
+
+                    </div>
+                    <div class="item" data-id="236026" data-pos="4">
+                        <a href='/tai-nghe/tai-nghe-bluetooth-airpods-pro-apple-mwp22' class=" main-contain" data-s="Nomal" data-site="1" data-pro="3" data-cache="True" data-name="Tai nghe Bluetooth AirPods Pro Wireless Charge Apple MWP22" data-id="236026" data-price="4990000.0"
+                            data-brand="Apple" data-cate="Tai nghe" data-box="BoxHome">
+                            <div class="item-label">
+                            </div>
+                            <div class="item-img">
+                                <img data-src="https://cdn.tgdd.vn/Products/Images/54/236026/airpods-pro-wireless-charge-apple-mwp22-ava-600x600.jpg" class="lazyload" alt="Tai nghe Bluetooth AirPods Pro Wireless Charge Apple MWP22" width=210 height=210>
+                            </div>
+                            <p class='result-label temp1'><img width='20' height='20' class='lazyload' alt='TRỢ GIÁ MÙA DỊCH' data-src='https://cdn.tgdd.vn/2020/10/content/icon1-50x50.png'><span>TRỢ GIÁ MÙA DỊCH</span></p>
+                            <h3>Tai nghe Bluetooth AirPods Pro Wireless Charge Apple MWP22</h3>
+                            <div class="item-compare">
+                                <span>Active Noise Cancellation</span>
+                                <span>Adaptive EQ</span>
+                            </div>
+                            <p class="item-txt-online">Online gia&#x301; re&#x309;</p>
+                            <div class="box-p">
+                                <p class="price-old black">6.790.000&#x20AB;</p>
+                                <span class="percent">-26%</span>
+                            </div>
+                            <strong class="price">4.990.000&#x20AB;</strong>
+                            <div class="item-rating">
+                                <p>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star-dark"></i>
+                                </p>
+                                <p class="item-rating-total">8</p>
+                            </div>
+
+
+                        </a>
+
+                    </div>
+                    <div class="item" data-id="228893" data-pos="5">
+                        <a href='/tai-nghe/tai-nghe-bluetooth-true-wireless-lg-hbs-fn4' class=" main-contain" data-s="Nomal" data-site="1" data-pro="3" data-cache="True" data-name="Tai nghe Bluetooth True Wireless LG Tone Free HBS-FN4" data-id="228893" data-price="990000.0"
+                            data-brand="LG" data-cate="Tai nghe" data-box="BoxHome">
+                            <div class="item-label">
+                            </div>
+                            <div class="item-img">
+                                <img data-src="https://cdn.tgdd.vn/Products/Images/54/228893/bluetooth-tws-lg-tone-free-hbs-fn4-den-thumb-600x600.jpg" class="lazyload" alt="Tai nghe Bluetooth True Wireless LG Tone Free HBS-FN4" width=210 height=210>
+                            </div>
+                            <p class='result-label temp1'><img width='20' height='20' class='lazyload' alt='TRỢ GIÁ MÙA DỊCH' data-src='https://cdn.tgdd.vn/2020/10/content/icon1-50x50.png'><span>TRỢ GIÁ MÙA DỊCH</span></p>
+                            <h3>Tai nghe Bluetooth True Wireless LG Tone Free HBS-FN4</h3>
+                            <div class="item-compare">
+                                <span>Truy&#x1EC1;n ph&#xE1;t nh&#x1EA1;c MQA</span>
+                                <span>Headphone Spatial Processing</span>
+                            </div>
+                            <p class="item-txt-online">Online gia&#x301; re&#x309;</p>
+                            <div class="box-p">
+                                <p class="price-old black">2.790.000&#x20AB;</p>
+                                <span class="percent">-64%</span>
+                            </div>
+                            <strong class="price">990.000&#x20AB;</strong>
+                            <div class="item-rating">
+                                <p>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star-dark"></i>
+                                    <i class="icon-star-dark"></i>
+                                </p>
+                                <p class="item-rating-total">29</p>
+                            </div>
+
+
+                        </a>
+
+                    </div>
+                    <div class="item" data-id="238231" data-pos="6">
+                        <a href='/tai-nghe/bluetooth-tws-samsung-galaxy-bud-r175' class=" main-contain" data-s="OnlineSavingCMS" data-site="1" data-pro="3" data-cache="True" data-name="Tai nghe Bluetooth True Wireless Samsung Galaxy Buds&#x2B; R175" data-id="238231" data-price="1290000.0"
+                            data-brand="Samsung" data-cate="Tai nghe" data-box="BoxHome">
+                            <div class="item-label">
+                            </div>
+                            <div class="item-img">
+                                <img data-src="https://cdn.tgdd.vn/Products/Images/54/238231/bluetooth-tws-samsung-galaxy-bub-r175-ava-600x600.jpg" class="lazyload" alt="Tai nghe Bluetooth True Wireless Samsung Galaxy Buds&#x2B; R175" width=210 height=210>
+                            </div>
+                            <p class='result-label temp1'><img width='20' height='20' class='lazyload' alt='TRỢ GIÁ MÙA DỊCH' data-src='https://cdn.tgdd.vn/2020/10/content/icon1-50x50.png'><span>TRỢ GIÁ MÙA DỊCH</span></p>
+                            <h3>Tai nghe Bluetooth True Wireless Samsung Galaxy Buds+ R175</h3>
+                            <div class="item-compare">
+                                <span>Ambient Sound</span>
+                            </div>
+                            <p class="item-txt-online">Online gia&#x301; re&#x309;</p>
+                            <div class="box-p">
+                                <p class="price-old black">2.140.000&#x20AB;</p>
+                                <span class="percent">-39%</span>
+                            </div>
+                            <strong class="price">1.290.000&#x20AB;</strong>
+                            <div class="item-rating">
+                                <p>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star-dark"></i>
+                                </p>
+                                <p class="item-rating-total">53</p>
+                            </div>
+
+
+                        </a>
+
+                    </div>
+                    <div class="item" data-id="237679" data-pos="7">
+                        <a href='/sac-dtdd/hydrus-pj-jp196' class=" main-contain" data-s="Nomal" data-site="1" data-pro="3" data-cache="True" data-name="Pin s&#x1EA1;c d&#x1EF1; ph&#xF2;ng Polymer 10.000 mAh Hydrus PJ JP196" data-id="237679" data-price="294000.0" data-brand="Hydrus"
+                            data-cate="S&#x1EA1;c d&#x1EF1; ph&#xF2;ng" data-box="BoxHome">
+                            <div class="item-label">
+                            </div>
+                            <div class="item-img">
+                                <img data-src="https://cdn.tgdd.vn/Products/Images/57/237679/hydrus-pj-jp196-ava-600x600.jpg" class="lazyload" alt="Hydrus PJ JP196" width=210 height=210>
+                            </div>
+                            <p class='result-label temp1'><img width='20' height='20' class='lazyload' alt='TRỢ GIÁ MÙA DỊCH' data-src='https://cdn.tgdd.vn/2020/10/content/icon1-50x50.png'><span>TRỢ GIÁ MÙA DỊCH</span></p>
+                            <h3>Pin sạc dự phòng Polymer 10.000 mAh Hydrus PJ JP196</h3>
+                            <p class="item-txt-online">Ch&#x1EC9; b&#xE1;n online</p>
+                            <div class="box-p">
+                                <p class="price-old black">490.000&#x20AB;</p>
+                                <span class="percent">-40%</span>
+                            </div>
+                            <strong class="price">294.000&#x20AB;</strong>
+
+
+                        </a>
+
+                    </div>
+                    <div class="item" data-id="227187" data-pos="8">
+                        <a href='/loa-laptop/loa-bluetooth-lg-xboom-go-pl7-xanh-den' class=" main-contain" data-s="Nomal" data-site="1" data-pro="3" data-cache="True" data-name="Loa Bluetooth LG Xboom Go PL7 Xanh &#x110;en" data-id="227187" data-price="1890000.0" data-brand="LG"
+                            data-cate="Loa" data-box="BoxHome">
+                            <div class="item-label">
+                            </div>
+                            <div class="item-img">
+                                <img data-src="https://cdn.tgdd.vn/Products/Images/2162/227187/loa-bluetooth-lg-xboom-go-pl7-xanh-den-600x600.jpg" class="lazyload" alt="Loa Bluetooth LG Xboom Go PL7" width=210 height=210>
+                            </div>
+                            <p class='result-label temp1'><img width='20' height='20' class='lazyload' alt='TRỢ GIÁ MÙA DỊCH' data-src='https://cdn.tgdd.vn/2020/10/content/icon1-50x50.png'><span>TRỢ GIÁ MÙA DỊCH</span></p>
+                            <h3>Loa Bluetooth LG Xboom Go PL7 Xanh Đen</h3>
+                            <div class="item-compare">
+                                <span>30 W</span>
+                            </div>
+                            <p class="item-txt-online">Online gia&#x301; re&#x309;</p>
+                            <div class="box-p">
+                                <p class="price-old black">4.490.000&#x20AB;</p>
+                                <span class="percent">-57%</span>
+                            </div>
+                            <strong class="price">1.890.000&#x20AB;</strong>
+                            <div class="item-rating">
+                                <p>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star-dark"></i>
+                                </p>
+                                <p class="item-rating-total">8</p>
+                            </div>
+
+
+                        </a>
+
+                    </div>
+                    <div class="item" data-id="226142" data-pos="9">
+                        <a href='/sac-dtdd/sac-du-phong-polymer-10000mah-qc30-xmobile-p68d' class=" main-contain" data-s="Nomal" data-site="1" data-pro="3" data-cache="True" data-name="Pin s&#x1EA1;c d&#x1EF1; ph&#xF2;ng Polymer 10.000 mAh Type C PD QC3.0 Xmobile P68D" data-id="226142"
+                            data-price="420000.0" data-brand="Xmobile" data-cate="S&#x1EA1;c d&#x1EF1; ph&#xF2;ng" data-box="BoxHome">
+                            <div class="item-label">
+                            </div>
+                            <div class="item-img">
+                                <img data-src="https://cdn.tgdd.vn/Products/Images/57/226142/sac-du-phong-polymer-10000mah-qc30-xmobile-p68d-avatar-1-600x600.jpg" class="lazyload" alt="Xmobile P68D" width=210 height=210>
+                            </div>
+                            <p class='result-label temp1'><img width='20' height='20' class='lazyload' alt='TRỢ GIÁ MÙA DỊCH' data-src='https://cdn.tgdd.vn/2020/10/content/icon1-50x50.png'><span>TRỢ GIÁ MÙA DỊCH</span></p>
+                            <h3>Pin sạc dự phòng Polymer 10.000 mAh Type C PD QC3.0 Xmobile P68D</h3>
+                            <p class="item-txt-online">Online gia&#x301; re&#x309;</p>
+                            <div class="box-p">
+                                <p class="price-old black">700.000&#x20AB;</p>
+                                <span class="percent">-40%</span>
+                            </div>
+                            <strong class="price">420.000&#x20AB;</strong>
+                            <div class="item-rating">
+                                <p>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star-half"></i>
+                                    <i class="icon-star-dark"></i>
+                                    <i class="icon-star-dark"></i>
+                                </p>
+                                <p class="item-rating-total">15</p>
+                            </div>
+
+
+                        </a>
+
+                    </div>
+                    <div class="item" data-id="174748" data-pos="10">
+                        <a href='/sac-dtdd/sac-du-phong-polymer-10000mah-qc-3-evalu-pa-f1-air' class=" main-contain" data-s="Nomal" data-site="1" data-pro="3" data-cache="True" data-name="Pin s&#x1EA1;c d&#x1EF1; ph&#xF2;ng Polymer 10.000 mAh Type C QC3.0 eValu PA F1 Air" data-id="174748"
+                            data-price="360000.0" data-brand="eValu" data-cate="S&#x1EA1;c d&#x1EF1; ph&#xF2;ng" data-box="BoxHome">
+                            <div class="item-label">
+                            </div>
+                            <div class="item-img">
+                                <img data-src="https://cdn.tgdd.vn/Products/Images/57/174748/sac-du-phong-polymer-10000mah-qc-3-evalu-pa-f1-air-avatar-1-600x600.jpg" class="lazyload" alt="eValu PA F1 Air" width=210 height=210>
+                            </div>
+                            <p class='result-label temp1'><img width='20' height='20' class='lazyload' alt='TRỢ GIÁ MÙA DỊCH' data-src='https://cdn.tgdd.vn/2020/10/content/icon1-50x50.png'><span>TRỢ GIÁ MÙA DỊCH</span></p>
+                            <h3>Pin sạc dự phòng Polymer 10.000 mAh Type C QC3.0 eValu PA F1 Air</h3>
+                            <p class="item-txt-online">Online gia&#x301; re&#x309;</p>
+                            <div class="box-p">
+                                <p class="price-old black">600.000&#x20AB;</p>
+                                <span class="percent">-40%</span>
+                            </div>
+                            <strong class="price">360.000&#x20AB;</strong>
+                            <div class="item-rating">
+                                <p>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star"></i>
+                                    <i class="icon-star-dark"></i>
+                                </p>
+                                <p class="item-rating-total">64</p>
+                            </div>
+
+
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- End -->
+        <!-- Đồng hồ thông minh, đồng hồ nam, đồng hồ nữ, định vị trẻ em -->
+        <div class="dongho clearfix" style=background-color:#193D51>
+            <div class="dongho__left">
+                <a aria-label="slide" data-cate="0" data-place="1576" href="#" >
+                    <img  loading="lazy" class="lazyload" data-src="//cdn.tgdd.vn/2021/04/banner/330x430-330x430-1.png" alt="Block trang chủ đồng hồ"  >
+                </a>               
+             </div>
+            <div class="dongho__right">
+                <ul class="dongho-tab">
+                    <li class="item act" data-cate-id="7077" data-html-id="3482">Đồng hồ thông minh</li>
+                    <li class="item" data-cate-id="7264" data-prop-id="134705" data-html-id="3483">Đồng hồ th&#x1EDD;i trang Nam</li>
+                    <li class="item" data-cate-id="7264" data-prop-id="134706" data-html-id="3484">Đồng hồ th&#x1EDD;i trang Nữ</li>
+                    <li class="item" data-cate-id="7077" data-prop-id="147889" data-html-id="3485">Định vị trẻ em</li>
+                </ul>
+                <div class="dongho-show active relative">
+                    <div class="preloader">
+                        <div class="loaderweb"></div>
+                    </div>
+                    <div class="dongho__content">
+                        <div class="listproduct slider-dongho owl-carousel" data-size="8">
+                            <div class="item" data-id="233260" data-pos="1">
+                                <a href='/dong-ho-thong-minh/se-44mm-vien-nhom-day-cao-su-hong' class=" main-contain" data-s="Nomal" data-site="1" data-pro="3" data-cache="False" data-name="Apple Watch SE 44mm vi&#x1EC1;n nh&#xF4;m d&#xE2;y cao su h&#x1ED3;ng" data-id="233260" data-price="7691000.0"
+                                    data-brand="Apple" data-cate="&#x110;&#x1ED3;ng h&#x1ED3; th&#xF4;ng minh" data-box="BoxHome">
+                                    <div class="item-label">
+                                    </div>
+                                    <div class="item-img">
+                                        <img data-src="https://cdn.tgdd.vn/Products/Images/7077/233260/se-44mm-vien-nhom-day-cao-su-hong-thumb-233260-600x600.jpg" class="lazyload" alt="Apple Watch SE 44mm vi&#x1EC1;n nh&#xF4;m d&#xE2;y cao su" width=210 height=210>
+                                    </div>
+                                    <p class='result-label temp1'><img width='20' height='20' class='lazyload' alt='TRỢ GIÁ MÙA DỊCH' data-src='https://cdn.tgdd.vn/2020/10/content/icon1-50x50.png'><span>TRỢ GIÁ MÙA DỊCH</span></p>
+                                    <h3>Apple Watch SE 44mm viền nhôm dây cao su hồng</h3>
+                                    <div class="item-compare">
+                                        <span>C&#xF3; nghe g&#x1ECD;i</span>
+                                    </div>
+                                    <p class="item-txt-online">Online gia&#x301; re&#x309;</p>
+                                    <div class="box-p">
+                                        <p class="price-old black">9.990.000&#x20AB;</p>
+                                        <span class="percent">-23%</span>
+                                    </div>
+                                    <strong class="price">7.691.000&#x20AB;</strong>
+
+
+                                </a>
+
+                            </div>
+                            <div class="item" data-id="248761" data-pos="2">
+                                <a href='/dong-ho-thong-minh/samsung-galaxy-watch-4-classic-46mm' class=" main-contain" data-s="Nomal" data-site="1" data-pro="3" data-cache="False" data-name="Samsung Galaxy Watch 4 Classic 46mm" data-id="248761" data-price="8990000.0" data-brand="Samsung"
+                                    data-cate="&#x110;&#x1ED3;ng h&#x1ED3; th&#xF4;ng minh" data-box="BoxHome">
+                                    <div class="item-label">
+                                    </div>
+                                    <div class="item-img">
+                                        <img data-src="https://cdn.tgdd.vn/Products/Images/7077/248761/samsung-galaxy-watch-4-classic-42mm-bac-thumb-1-1-600x600.jpg" class="lazyload" alt="Samsung Galaxy Watch 4 Classic 46mm" width=210 height=210>
+                                        <img src="https://cdn.tgdd.vn/ValueIcons/Label_01-05.png" width="40" height="40" class="lazyload lbliconimg lbliconimg_7077 tgdd" />
+                                    </div>
+                                    <p class='result-label temp2'><img width='20' height='20' class='lazyload' alt='ĐĂNG KÝ THÔNG TIN' data-src='https://cdn.tgdd.vn/2020/10/content/icon2-50x50.png'><span>ĐĂNG KÝ THÔNG TIN</span></p>
+                                    <h3>Samsung Galaxy Watch 4 Classic 46mm</h3>
+                                    <div class="item-compare">
+                                        <span>&#x110;o n&#x1ED3;ng &#x111;&#x1ED9; oxy (SpO2)</span>
+                                    </div>
+                                    <p class="item-txt-online">H&#xE0;ng s&#x1EAF;p v&#x1EC1;</p>
+                                    <strong class="price">8.990.000&#x20AB;</strong>
+
+
+                                </a>
+
+                            </div>
+                            <div class="item" data-id="231682" data-pos="3">
+                                <a href='/dong-ho-thong-minh/beu-b2-den' class=" main-contain" data-s="Nomal" data-site="1" data-pro="3" data-cache="False" data-name="&#x110;&#x1ED3;ng h&#x1ED3; th&#xF4;ng minh BeU B2 &#x110;en" data-id="231682" data-price="552000.0" data-brand="BeU"
+                                    data-cate="&#x110;&#x1ED3;ng h&#x1ED3; th&#xF4;ng minh" data-box="BoxHome">
+                                    <div class="item-label">
+                                    </div>
+                                    <div class="item-img">
+                                        <img data-src="https://cdn.tgdd.vn/Products/Images/7077/231682/beu-b2-den-thumb-1-1-600x600.jpg" class="lazyload" alt="BeU B2" width=210 height=210>
+                                    </div>
+                                    <p class='result-label temp1'><img width='20' height='20' class='lazyload' alt='TRỢ GIÁ MÙA DỊCH' data-src='https://cdn.tgdd.vn/2020/10/content/icon1-50x50.png'><span>TRỢ GIÁ MÙA DỊCH</span></p>
+                                    <h3>Đồng hồ thông minh BeU B2 Đen</h3>
+                                    <div class="box-p">
+                                        <p class="price-old black">690.000&#x20AB;</p>
+                                        <span class="percent">-20%</span>
+                                    </div>
+                                    <strong class="price">552.000&#x20AB;</strong>
+                                    <div class="item-rating">
+                                        <p>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star-dark"></i>
+                                            <i class="icon-star-dark"></i>
+                                        </p>
+                                        <p class="item-rating-total">16</p>
+                                    </div>
+
+
+                                </a>
+
+                            </div>
+                            <div class="item" data-id="230634" data-pos="4">
+                                <a href='/dong-ho-thong-minh/samsung-galaxy-watch-3-41mm-bac' class=" main-contain" data-s="Nomal" data-site="1" data-pro="3" data-cache="False" data-name="Samsung Galaxy Watch 3 41mm vi&#x1EC1;n th&#xE9;p b&#x1EA1;c d&#xE2;y da" data-id="230634" data-price="4990000.0"
+                                    data-brand="Samsung" data-cate="&#x110;&#x1ED3;ng h&#x1ED3; th&#xF4;ng minh" data-box="BoxHome">
+                                    <div class="item-label">
+                                    </div>
+                                    <div class="item-img">
+                                        <img data-src="https://cdn.tgdd.vn/Products/Images/7077/230634/samsung-galaxy-watch-3-41mm-bac-thumb-1-1-600x600.jpg" class="lazyload" alt="Samsung Galaxy Watch 3 41mm vi&#x1EC1;n th&#xE9;p d&#xE2;y da" width=210 height=210>
+                                    </div>
+                                    <p class='result-label temp1'><img width='20' height='20' class='lazyload' alt='Hotsale GIẢM SỐC' data-src='https://cdn.tgdd.vn/2020/10/content/icon1-50x50.png'><span>Hotsale GIẢM SỐC</span></p>
+                                    <h3>Samsung Galaxy Watch 3 41mm viền thép bạc dây da</h3>
+                                    <div class="item-compare">
+                                        <span>&#x110;o n&#x1ED3;ng &#x111;&#x1ED9; oxy (SpO2)</span>
+                                        <span>C&#xF3; nghe g&#x1ECD;i</span>
+                                    </div>
+                                    <div class="box-p">
+                                        <p class="price-old black">9.490.000&#x20AB;</p>
+                                        <span class="percent">-47%</span>
+                                    </div>
+                                    <strong class="price">4.990.000&#x20AB;</strong>
+                                    <div class="item-rating">
+                                        <p>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star-dark"></i>
+                                            <i class="icon-star-dark"></i>
+                                        </p>
+                                        <p class="item-rating-total">13</p>
+                                    </div>
+
+
+                                </a>
+
+                            </div>
+                            <div class="item" data-id="236733" data-pos="5">
+                                <a href='/dong-ho-thong-minh/mi-band-6' class=" main-contain" data-s="Nomal" data-site="1" data-pro="3" data-cache="False" data-name="V&#xF2;ng &#x111;eo tay th&#xF4;ng minh Mi Band 6" data-id="236733" data-price="990000.0" data-brand="Xiaomi" data-cate="&#x110;&#x1ED3;ng h&#x1ED3; th&#xF4;ng minh"
+                                    data-box="BoxHome">
+                                    <div class="item-label">
+                                        <span class="ln-banchay">Bán chạy</span>
+                                    </div>
+                                    <div class="item-img">
+                                        <img data-src="https://cdn.tgdd.vn/Products/Images/7077/236733/mi-band-6-thumb-1-1-600x600.jpg" class="lazyload" alt="Xiaomi Mi Band 6" width=210 height=210>
+                                        <img src="https://cdn.tgdd.vn/ValueIcons/image-12.png" width="40" height="40" class="lazyload lbliconimg lbliconimg_7077 tgdd" />
+                                    </div>
+                                    <p class='result-label temp1'><img width='20' height='20' class='lazyload' alt='TRỢ GIÁ MÙA DỊCH' data-src='https://cdn.tgdd.vn/2020/10/content/icon1-50x50.png'><span>TRỢ GIÁ MÙA DỊCH</span></p>
+                                    <h3>Vòng đeo tay thông minh Mi Band 6</h3>
+                                    <div class="item-compare">
+                                        <span>&#x110;o n&#x1ED3;ng &#x111;&#x1ED9; oxy (SpO2)</span>
+                                    </div>
+                                    <p class="item-txt-online">Online gia&#x301; re&#x309;</p>
+                                    <div class="box-p">
+                                        <p class="price-old black">1.290.000&#x20AB;</p>
+                                        <span class="percent">-23%</span>
+                                    </div>
+                                    <strong class="price">990.000&#x20AB;</strong>
+                                    <div class="item-rating">
+                                        <p>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star-dark"></i>
+                                        </p>
+                                        <p class="item-rating-total">20</p>
+                                    </div>
+
+
+                                </a>
+
+                            </div>
+                            <div class="item" data-id="234916" data-pos="6">
+                                <a href='/dong-ho-thong-minh/s6-40mm-vien-nhom-day-cao-su-xanh' class=" main-contain" data-s="Nomal" data-site="1" data-pro="3" data-cache="False" data-name="Apple Watch S6 40mm vi&#x1EC1;n nh&#xF4;m d&#xE2;y cao su xanh" data-id="234916" data-price="9491000.0"
+                                    data-brand="Apple" data-cate="&#x110;&#x1ED3;ng h&#x1ED3; th&#xF4;ng minh" data-box="BoxHome">
+                                    <div class="item-label">
+                                    </div>
+                                    <div class="item-img">
+                                        <img data-src="https://cdn.tgdd.vn/Products/Images/7077/234916/s6-40mm-vien-nhom-day-cao-su-xanh-thumb-234916-600x600.jpg" class="lazyload" alt="Apple Watch S6 40mm vi&#x1EC1;n nh&#xF4;m d&#xE2;y cao su xanh" width=210 height=210>
+                                    </div>
+                                    <p class='result-label temp1'><img width='20' height='20' class='lazyload' alt='TRỢ GIÁ MÙA DỊCH' data-src='https://cdn.tgdd.vn/2020/10/content/icon1-50x50.png'><span>TRỢ GIÁ MÙA DỊCH</span></p>
+                                    <h3>Apple Watch S6 40mm viền nhôm dây cao su xanh</h3>
+                                    <div class="item-compare">
+                                        <span>&#x110;o n&#x1ED3;ng &#x111;&#x1ED9; oxy (SpO2)</span>
+                                        <span>C&#xF3; nghe g&#x1ECD;i</span>
+                                    </div>
+                                    <p class="item-txt-online">Online gia&#x301; re&#x309;</p>
+                                    <div class="box-p">
+                                        <p class="price-old black">11.990.000&#x20AB;</p>
+                                        <span class="percent">-20%</span>
+                                    </div>
+                                    <strong class="price">9.491.000&#x20AB;</strong>
+
+
+                                </a>
+
+                            </div>
+                            <div class="item" data-id="227985" data-pos="7">
+                                <a href='/dong-ho-thong-minh/huawei-watch-fit-day-silicone' class=" main-contain" data-s="Nomal" data-site="1" data-pro="3" data-cache="False" data-name="Huawei Watch Fit d&#xE2;y silicone" data-id="227985" data-price="1990000.0" data-brand="Huawei" data-cate="&#x110;&#x1ED3;ng h&#x1ED3; th&#xF4;ng minh"
+                                    data-box="BoxHome">
+                                    <div class="item-label">
+                                    </div>
+                                    <div class="item-img">
+                                        <img data-src="https://cdn.tgdd.vn/Products/Images/7077/227985/huawei-watch-fit-day-silicone-thumb-1-1-600x600.jpg" class="lazyload" alt="Huawei Watch Fit d&#xE2;y silicone" width=210 height=210>
+                                    </div>
+                                    <p class='result-label temp1'><img width='20' height='20' class='lazyload' alt='TRỢ GIÁ MÙA DỊCH' data-src='https://cdn.tgdd.vn/2020/10/content/icon1-50x50.png'><span>TRỢ GIÁ MÙA DỊCH</span></p>
+                                    <h3>Huawei Watch Fit dây silicone</h3>
+                                    <div class="item-compare">
+                                        <span>&#x110;o n&#x1ED3;ng &#x111;&#x1ED9; oxy (SpO2)</span>
+                                    </div>
+                                    <div class="box-p">
+                                        <p class="price-old black">3.290.000&#x20AB;</p>
+                                        <span class="percent">-39%</span>
+                                    </div>
+                                    <strong class="price">1.990.000&#x20AB;</strong>
+                                    <div class="item-rating">
+                                        <p>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star-dark"></i>
+                                        </p>
+                                        <p class="item-rating-total">22</p>
+                                    </div>
+
+
+                                </a>
+
+                            </div>
+                            <div class="item" data-id="218428" data-pos="8">
+                                <a href='/dong-ho-thong-minh/garmin-forerunner-45-day-silicone' class=" main-contain" data-s="Nomal" data-site="1" data-pro="3" data-cache="False" data-name="&#x110;&#x1ED3;ng h&#x1ED3; th&#xF4;ng minh Garmin Forerunner 45 d&#xE2;y silicone &#x111;&#x1ECF;"
+                                    data-id="218428" data-price="4072000.0" data-brand="Garmin" data-cate="&#x110;&#x1ED3;ng h&#x1ED3; th&#xF4;ng minh" data-box="BoxHome">
+                                    <div class="item-label">
+                                    </div>
+                                    <div class="item-img">
+                                        <img data-src="https://cdn.tgdd.vn/Products/Images/7077/218428/garmin-forerunner-45-day-silicone-thumb-1-1-600x600.jpg" class="lazyload" alt="Garmin Forerunner 45 d&#xE2;y silicone" width=210 height=210>
+                                        <img src="https://cdn.tgdd.vn/ValueIcons/Label_01_2nd-09-111.png" width="40" height="40" class="lazyload lbliconimg lbliconimg_7077 tgdd" />
+                                    </div>
+                                    <p class='result-label temp1'><img width='20' height='20' class='lazyload' alt='TRỢ GIÁ MÙA DỊCH' data-src='https://cdn.tgdd.vn/2020/10/content/icon1-50x50.png'><span>TRỢ GIÁ MÙA DỊCH</span></p>
+                                    <h3>Đồng hồ thông minh Garmin Forerunner 45 dây silicone đỏ</h3>
+                                    <div class="box-p">
+                                        <p class="price-old black">5.090.000&#x20AB;</p>
+                                        <span class="percent">-20%</span>
+                                    </div>
+                                    <strong class="price">4.072.000&#x20AB;</strong>
+
+
+                                </a>
+
+                            </div>
+                        </div>
+                        <a href="/dong-ho-thong-minh" class="readmore-arrow smart-watch"><span>Xem tất cả Đồng hồ thông minh</span></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- End -->
+
+        <div class="trademark">
+            <h4 class="title-layout">CHUYÊN TRANG THƯƠNG HIỆU</h4>
+            <div class="trademark-slider owl-carousel" data-size="3">
+                <a aria-label="slide" data-cate="0" data-place="1550" href="/samsung" onclick="jQuery.ajax({ url: 'https://www.thegioididong.com/bannertracking?bid=45210&r='+ (new Date).getTime(), async: true, cache: false });"><img  loading="lazy" class="lazyload owl-lazy" data-src="//cdn.tgdd.vn/2021/08/banner/samsung-390-210-390x210-1.png" alt="SS"  ></a>
+                <a
+                    aria-label="slide" data-cate="0" data-place="1550" href="/apple?itm_source=homepage&itm_medium=SIS_banner&itm_campaign=internal_tracking&itm_content=all_1550" onclick="jQuery.ajax({ url: 'https://www.thegioididong.com/bannertracking?bid=43640&r='+ (new Date).getTime(), async: true, cache: false });"><img loading="lazy" class="lazyload owl-lazy" data-src="//cdn.tgdd.vn/2021/08/banner/DT-390x210.png" alt="iphone"></a><a aria-label="slide" data-cate="0" data-place="1550" href="/lenovo" onclick="jQuery.ajax({ url: 'https://www.thegioididong.com/bannertracking?bid=45549&r='+ (new Date).getTime(), async: true, cache: false });"><img  loading="lazy" class="lazyload owl-lazy" data-src="//cdn.tgdd.vn/2021/08/banner/Laptop2-390x210.png" alt="Laptop Lenovo"  ></a>                    </div>
+        </div>
+
+        <div class="product-news">
+            <h4 class="title-layout">S&#x1EA2;N PH&#x1EA8;M M&#x1EDA;I</h4>
+            <div class="product-news-slider owl-carousel" data-size="6">
+                <a aria-label="slide" data-cate="0" data-place="1552" href="" >
+                    <img  loading="lazy" class="lazyload" data-src="//cdn.tgdd.vn/2021/08/banner/Giadụng-desktop(1)-780x420.jpg" alt="Galaxy Z Flip3 5G"  >
+                </a>
+                <a aria-label="slide" data-cate="0" data-place="1552" href="" >
+                    <img loading="lazy" class="lazyload" data-src="//cdn.tgdd.vn/2021/08/banner/Giadụng-desktop-780x420-3.jpg" alt="Mac Mini">
+                </a>
+                <a aria-label="slide" data-cate="0" data-place="1552" href="" >
+                    <img  loading="lazy" class="lazyload" data-src="//cdn.tgdd.vn/2021/08/banner/Giadụng-desktop-780x420-4.jpg" alt="Smartwatch"  >
+                </a>
+                <a aria-label="slide" data-cate="0" data-place="1552" href="" >
+                    <img loading="lazy" class="lazyload" data-src="//cdn.tgdd.vn/2021/08/banner/dsf-780x420.jpg" alt="Máy chiếu">
+                </a>
+                <a aria-label="slide" data-cate="0" data-place="1552" href="">
+                    <img  loading="lazy" class="lazyload" data-src="//cdn.tgdd.vn/2021/08/banner/tainghemoi-780x420.jpg" alt="Tai nghe"  >
+                </a>
+                <a aria-label="slide" data-cate="0" data-place="1552" href="#" >
+                    <img loading="lazy" class="lazyload" data-src="//cdn.tgdd.vn/2021/08/banner/fdgvdfg-780x420-1.jpg" alt="Pin sac AVA">
+                </a>
+            </div>
+        </div>
+
+        <div class="application">
+            <div class="col1">
+                <div class="ttl-main">
+                    <h4 class="title-layout">24H CÔNG NGHỆ</h4>
+                    <a href="/tin-tuc" class="readmore-txt blue">Xem thêm</a>
+                </div>
+                <div class="col1__ct" data-size="6">
+                    <a href="/tin-tuc/ky-vong-xiaomi-mi-11t-pro-concept-1377544" class="col1-big">
+                        <div class="col1-big-img">
+                            <img data-src="https://cdn.tgdd.vn/Files/2021/08/24/1377544/thumb_800x450-500x500.jpg" class="lazyload" alt="K&#x1EF3; v&#x1ECD;ng Xiaomi Mi 11T Pro Concept: M&#xE0;n h&#xEC;nh OLED 120 Hz, c&#x1EA5;u h&#xEC;nh Snapdragon 888&#x2B; m&#x1EDB;i nh&#x1EA5;t v&#xE0; trang b&#x1ECB; s&#x1EA1;c nhanh 120 W">
+                        </div>
+                        <p class="col1-title">K&#x1EF3; v&#x1ECD;ng Xiaomi Mi 11T Pro Concept: M&#xE0;n h&#xEC;nh OLED 120 Hz, c&#x1EA5;u h&#xEC;nh Snapdragon 888&#x2B; m&#x1EDB;i nh&#x1EA5;t v&#xE0; trang b&#x1ECB; s&#x1EA1;c nhanh 120 W</p>
+                        <p class="col1-hour">17 ph&#xFA;t tr&#x1B0;&#x1EDB;c</p>
+                    </a>
+                    <div class="col1-simple">
+                        <a href="/tin-tuc/dong-ho-thong-minh-gia-re-duoi-1-trieu-dong-uu-dai-1375369" class="spl-item">
+                            <div class="spl-item__img">
+                                <img data-src="https://cdn.tgdd.vn/Files/2021/08/15/1375369/beu-pt1-den-2_1280x720-200x200.jpg" class="lazyload" alt="S&#x103;n sale qu&#xE1; &#x111;&#xE3;, gi&#xE1; t&#x1ED1;t th&#x1EA5;y ham: &#x110;&#x1ED3;ng h&#x1ED3; th&#xF4;ng minh gi&#xE1; r&#x1EBB; d&#x1B0;&#x1EDB;i 1 tri&#x1EC7;u &#x111;&#x1ED3;ng &#x1B0;u &#x111;&#xE3;i m&#xF9;a d&#x1ECB;ch h&#x1EA5;p d&#x1EAB;n">
+                            </div>
+                            <div class="spl-item__content">
+                                <p class="spl-item-title">S&#x103;n sale qu&#xE1; &#x111;&#xE3;, gi&#xE1; t&#x1ED1;t th&#x1EA5;y ham: &#x110;&#x1ED3;ng h&#x1ED3; th&#xF4;ng minh gi&#xE1; r&#x1EBB; d&#x1B0;&#x1EDB;i 1 tri&#x1EC7;u &#x111;&#x1ED3;ng &#x1B0;u &#x111;&#xE3;i m&#xF9;a
+                                    d&#x1ECB;ch h&#x1EA5;p d&#x1EAB;n</p>
+                                <p class="spl-item-hour">25 ph&#xFA;t tr&#x1B0;&#x1EDB;c</p>
+                            </div>
+                        </a>
+                        <a href="/tin-tuc/gia-galaxy-note-20-cu-thay-ma-me-1377300" class="spl-item">
+                            <div class="spl-item__img">
+                                <img data-src="https://cdn.tgdd.vn/Files/2021/08/23/1377300/galaxy-note-20-cu-gia-1_1280x720-200x200.jpg" class="lazyload" alt="Gi&#xE1; Galaxy Note 20 c&#x169; th&#x1EA5;y m&#xE0; m&#xEA;, r&#x1EBB; h&#x1A1;n m&#xE1;y m&#x1EDB;i &#x111;&#x1EBF;n 52%, c&#x1A1; h&#x1ED9;i s&#x1EAF;m &#x111;i&#x1EC7;n tho&#x1EA1;i x&#x1ECB;n gi&#xE1; ti&#x1EBF;t ki&#x1EC7;m l&#xE0; &#x111;&#xE2;y ch&#x1EE9; &#x111;&#xE2;u n&#x1EEF;a">
+                            </div>
+                            <div class="spl-item__content">
+                                <p class="spl-item-title">Gi&#xE1; Galaxy Note 20 c&#x169; th&#x1EA5;y m&#xE0; m&#xEA;, r&#x1EBB; h&#x1A1;n m&#xE1;y m&#x1EDB;i &#x111;&#x1EBF;n 52%, c&#x1A1; h&#x1ED9;i s&#x1EAF;m &#x111;i&#x1EC7;n tho&#x1EA1;i x&#x1ECB;n gi&#xE1; ti&#x1EBF;t ki&#x1EC7;m
+                                    l&#xE0; &#x111;&#xE2;y ch&#x1EE9; &#x111;&#xE2;u n&#x1EEF;a</p>
+                                <p class="spl-item-hour">1 gi&#x1EDD; tr&#x1B0;&#x1EDB;c</p>
+                            </div>
+                        </a>
+                        <a href="/tin-tuc/moi-ban-tai-ve-bo-hinh-nen-sieu-hot-cua-galaxy-s21-fe-1377875" class="spl-item">
+                            <div class="spl-item__img">
+                                <img data-src="https://cdn.tgdd.vn/Files/2021/08/25/1377875/s21fe-1_1280x720-200x200.jpg" class="lazyload" alt="M&#x1EDD;i b&#x1EA1;n t&#x1EA3;i v&#x1EC1; b&#x1ED9; h&#xEC;nh n&#x1EC1;n si&#xEA;u hot c&#x1EE7;a Galaxy S21 FE, nhi&#x1EC1;u s&#x1EAF;c m&#xE0;u, &#x111;&#x1EAD;m t&#xED;nh tr&#x1EEB;u t&#x1B0;&#x1EE3;ng, c&#xF2;n ch&#x1EDD; m&#xE1;y ra m&#x1EAF;t n&#x1EEF;a th&#xF4;i">
+                            </div>
+                            <div class="spl-item__content">
+                                <p class="spl-item-title">M&#x1EDD;i b&#x1EA1;n t&#x1EA3;i v&#x1EC1; b&#x1ED9; h&#xEC;nh n&#x1EC1;n si&#xEA;u hot c&#x1EE7;a Galaxy S21 FE, nhi&#x1EC1;u s&#x1EAF;c m&#xE0;u, &#x111;&#x1EAD;m t&#xED;nh tr&#x1EEB;u t&#x1B0;&#x1EE3;ng, c&#xF2;n ch&#x1EDD;
+                                    m&#xE1;y ra m&#x1EAF;t n&#x1EEF;a th&#xF4;i</p>
+                                <p class="spl-item-hour">1 gi&#x1EDD; tr&#x1B0;&#x1EDB;c</p>
+                            </div>
+                        </a>
+                        <a href="/tin-tuc/top-5-may-tinh-bang-samsung-apple-co-ho-tro-but-cam-ung-1377482" class="spl-item">
+                            <div class="spl-item__img">
+                                <img data-src="https://cdn.tgdd.vn/Files/2021/08/24/1377482/top5maytinhbangcohotrobutcamung_800x450-200x200.jpg" class="lazyload" alt="TOP 5 m&#xE1;y t&#xED;nh b&#x1EA3;ng Samsung, Apple c&#xF3; h&#x1ED7; tr&#x1EE3; b&#xFA;t c&#x1EA3;m &#x1EE9;ng, ph&#x1EE5;c v&#x1EE5; t&#x1ED1;t c&#xE1;c nhu c&#x1EA7;u l&#xE0;m vi&#x1EC7;c gi&#x1EA3;i tr&#xED;, gi&#xE1; t&#x1EEB; 10 tri&#x1EC7;u l&#xE0; mua &#x111;&#x1B0;&#x1EE3;c">
+                            </div>
+                            <div class="spl-item__content">
+                                <p class="spl-item-title">TOP 5 m&#xE1;y t&#xED;nh b&#x1EA3;ng Samsung, Apple c&#xF3; h&#x1ED7; tr&#x1EE3; b&#xFA;t c&#x1EA3;m &#x1EE9;ng, ph&#x1EE5;c v&#x1EE5; t&#x1ED1;t c&#xE1;c nhu c&#x1EA7;u l&#xE0;m vi&#x1EC7;c gi&#x1EA3;i tr&#xED;, gi&#xE1;
+                                    t&#x1EEB; 10 tri&#x1EC7;u l&#xE0; mua &#x111;&#x1B0;&#x1EE3;c</p>
+                                <p class="spl-item-hour">2 gi&#x1EDD; tr&#x1B0;&#x1EDB;c</p>
+                            </div>
+                        </a>
+                        <a href="/tin-tuc/xiaomi-mi-note-11-gia-bao-nhieu-1377615" class="spl-item">
+                            <div class="spl-item__img">
+                                <img data-src="https://cdn.tgdd.vn/Files/2021/08/24/1377615/hinh-minh-hoa_1280x720-200x200.jpg" class="lazyload" alt="Xiaomi Mi Note 11 gi&#xE1; bao nhi&#xEA;u? C&#xF3; th&#x1EC3; r&#x1EBB; h&#x1A1;n phi&#xEA;n b&#x1EA3;n ti&#x1EC1;n nhi&#x1EC7;m, nh&#x1B0;ng s&#x1EDF; h&#x1EEF;u nhi&#x1EC1;u th&#xF4;ng s&#x1ED1; v&#x1B0;&#x1EE3;t tr&#x1ED9;i">
+                            </div>
+                            <div class="spl-item__content">
+                                <p class="spl-item-title">Xiaomi Mi Note 11 gi&#xE1; bao nhi&#xEA;u? C&#xF3; th&#x1EC3; r&#x1EBB; h&#x1A1;n phi&#xEA;n b&#x1EA3;n ti&#x1EC1;n nhi&#x1EC7;m, nh&#x1B0;ng s&#x1EDF; h&#x1EEF;u nhi&#x1EC1;u th&#xF4;ng s&#x1ED1; v&#x1B0;&#x1EE3;t tr&#x1ED9;i</p>
+                                <p class="spl-item-hour">3 gi&#x1EDD; tr&#x1B0;&#x1EDB;c</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col2">
+
+                <div class="ttl-main">
+                    <h4 class="title-layout">GAME, ỨNG DỤNG</h4>
+                    <a href="/game-app" class="readmore-txt blue">Xem thêm</a>
+                </div>
+                <div class="col2__ct">
+                    <div class="game game-slider owl-carousel" data-size="4">
+                        <div class="game__item">
+                            <a href="/game-app/afk-3q-de-vuong-thien-ha-234367">
+                        <img data-src="https://cdn.tgdd.vn/2021/01/content/afk3q-600x360.jpg" class="lazyload owl-lazy" alt="AFK 3Q - &#x110;&#x1EBF; V&#x1B0;&#x1A1;ng Thi&#xEA;n H&#x1EA1; | Game chi&#x1EBF;n thu&#x1EAD;t chu&#x1EA9;n Tam Qu&#x1ED1;c">
+                        <div class="game-box-wrap">
+                            <div class="game-box-img">
+                                <img data-src="https://cdn.tgdd.vn/GameApp/3/234367/Screentshots/afk-3q-de-vuong-thien-ha-234367-logo-19-01-2021.png" class="lazyload owl-lazy" alt="AFK 3Q - &#x110;&#x1EBF; V&#x1B0;&#x1A1;ng Thi&#xEA;n H&#x1EA1; | Game chi&#x1EBF;n thu&#x1EAD;t chu&#x1EA9;n Tam Qu&#x1ED1;c">
+                            </div>
+                            <div class="game-box-main">
+                                <h4 class="game-title">AFK 3Q - &#x110;&#x1EBF; V&#x1B0;&#x1A1;ng Thi&#xEA;n H&#x1EA1; | Game chi&#x1EBF;n thu&#x1EAD;t chu&#x1EA9;n Tam Qu&#x1ED1;c</h4>
+                                <div class="game-label">
+                                    <span>Mi&#x1EC5;n ph&#xED;</span>
+                                    <p>Chi&#x1EBF;n thu&#x1EAD;t</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                            <div class="game-box">
+                                <div class="game-box-list">
+                                    <a href="/game-app/code-afk-3q-moi-nhat-2021-huong-dan-cach-nhap-nhan-1318513">Code AFK 3Q m&#x1EDB;i nh&#x1EA5;t 2021 | H&#x1B0;&#x1EDB;ng d&#x1EAB;n c&#xE1;ch nh&#x1EAD;p nh&#x1EAD;n code</a>
+                                    <a href="/game-app/top-10-game-chien-thuat-tam-quoc-hap-dan-tren-android-ios-1335398">Top 10 game chi&#x1EBF;n thu&#x1EAD;t Tam Qu&#x1ED1;c h&#x1EA5;p d&#x1EAB;n tr&#xEA;n Android, iOS</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="game__item">
+                            <a href="/game-app/google-meet-app-hop-truc-tuyen-hoc-online-khong-gioi-228059">
+                        <img data-src="https://cdn.tgdd.vn/2021/02/content/meetfeat-600x360.jpg" class="lazyload owl-lazy" alt="Google Meet: App h&#x1ECD;p tr&#x1EF1;c tuy&#x1EBF;n, h&#x1ECD;c online kh&#xF4;ng gi&#x1EDB;i h&#x1EA1;n ng&#x1B0;&#x1EDD;i tham gia">
+                        <div class="game-box-wrap">
+                            <div class="game-box-img">
+                                <img data-src="https://cdn.tgdd.vn/GameApp/3/228059/Screentshots/google-meet-app-hop-truc-tuyen-hoc-online-khong-gioi-228059-logo-01-09-2020.png" class="lazyload owl-lazy" alt="Google Meet: App h&#x1ECD;p tr&#x1EF1;c tuy&#x1EBF;n, h&#x1ECD;c online kh&#xF4;ng gi&#x1EDB;i h&#x1EA1;n ng&#x1B0;&#x1EDD;i tham gia">
+                            </div>
+                            <div class="game-box-main">
+                                <h4 class="game-title">Google Meet: App h&#x1ECD;p tr&#x1EF1;c tuy&#x1EBF;n, h&#x1ECD;c online kh&#xF4;ng gi&#x1EDB;i h&#x1EA1;n ng&#x1B0;&#x1EDD;i tham gia</h4>
+                                <div class="game-label">
+                                    <span>Mi&#x1EC5;n ph&#xED;</span>
+                                    <p>C&#xF4;ng c&#x1EE5;</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                            <div class="game-box">
+                                <div class="game-box-list">
+                                    <a href="/game-app/cach-hien-thi-tat-ca-thanh-vien-tren-google-meet-cuc-nhanh-1350458">C&#xE1;ch hi&#x1EC3;n th&#x1ECB; t&#x1EA5;t c&#x1EA3; th&#xE0;nh vi&#xEA;n tr&#xEA;n Google Meet c&#x1EF1;c nhanh, &#x111;&#x1A1;n gi&#x1EA3;n</a>
+                                    <a href="/game-app/uu-va-nhuoc-diem-cua-5-ung-dung-hop-truc-tuyen-hot-nhat-hien-1273210">Top 7 &#x1EE9;ng d&#x1EE5;ng h&#x1ECD;p, h&#x1ECD;c tr&#x1EF1;c tuy&#x1EBF;n mi&#x1EC5;n ph&#xED;, h&#x1EEF;u &#xED;ch hi&#x1EC7;n nay 2021</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="game__item">
+                            <a href="/game-app/goi-rong-online-game-nhap-vai-mmorpg-236077">
+                        <img data-src="https://cdn.tgdd.vn/2021/03/content/goirongonlineFeather-600x360.jpg" class="lazyload owl-lazy" alt="G&#x1ECD;i r&#x1ED3;ng Online - 7 vi&#xEA;n ng&#x1ECD;c r&#x1ED3;ng: Game nh&#x1EAD;p vai MMORPG">
+                        <div class="game-box-wrap">
+                            <div class="game-box-img">
+                                <img data-src="https://cdn.tgdd.vn/GameApp/3/236077/Screentshots/goi-rong-online-game-nhap-vai-mmorpg-logo-17-03-2021.png" class="lazyload owl-lazy" alt="G&#x1ECD;i r&#x1ED3;ng Online - 7 vi&#xEA;n ng&#x1ECD;c r&#x1ED3;ng: Game nh&#x1EAD;p vai MMORPG">
+                            </div>
+                            <div class="game-box-main">
+                                <h4 class="game-title">G&#x1ECD;i r&#x1ED3;ng Online - 7 vi&#xEA;n ng&#x1ECD;c r&#x1ED3;ng: Game nh&#x1EAD;p vai MMORPG</h4>
+                                <div class="game-label">
+                                    <span>Mi&#x1EC5;n ph&#xED;</span>
+                                    <p>H&#xE0;nh &#x111;&#x1ED9;ng, Nh&#x1EAD;p vai, Phi&#xEA;u l&#x1B0;u</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                            <div class="game-box">
+                                <div class="game-box-list">
+                                    <a href="/game-app/code-goi-rong-online-moi-nhat-huong-dan-nhap-code-1335988">Code G&#x1ECD;i R&#x1ED3;ng Online m&#x1EDB;i nh&#x1EA5;t | H&#x1B0;&#x1EDB;ng d&#x1EAB;n nh&#x1EAD;p code</a>
+                                    <a href="/game-app/cach-tai-goi-rong-online-cho-android-don-gian-chi-tiet-1341105">C&#xE1;ch t&#x1EA3;i G&#x1ECD;i R&#x1ED3;ng Online cho Android &#x111;&#x1A1;n gi&#x1EA3;n, chi ti&#x1EBF;t</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="game__item">
+                            <a href="/game-app/zoom-cloud-meetings-tao-cuoc-hop-online-221386">
+                        <img data-src="https://cdn.tgdd.vn/2021/02/content/zoomfeat-600x360.jpg" class="lazyload owl-lazy" alt="ZOOM Cloud Meetings - T&#x1EA1;o cu&#x1ED9;c h&#x1ECD;p, h&#x1ECD;c online">
+                        <div class="game-box-wrap">
+                            <div class="game-box-img">
+                                <img data-src="https://cdn.tgdd.vn/2020/04/GameApp/200x200-200x200-28.png" class="lazyload owl-lazy" alt="ZOOM Cloud Meetings - T&#x1EA1;o cu&#x1ED9;c h&#x1ECD;p, h&#x1ECD;c online">
+                            </div>
+                            <div class="game-box-main">
+                                <h4 class="game-title">ZOOM Cloud Meetings - T&#x1EA1;o cu&#x1ED9;c h&#x1ECD;p, h&#x1ECD;c online</h4>
+                                <div class="game-label">
+                                    <span>Mi&#x1EC5;n ph&#xED;</span>
+                                    <p>Doanh nghi&#x1EC7;p</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                            <div class="game-box">
+                                <div class="game-box-list">
+                                    <a href="/game-app/uu-va-nhuoc-diem-cua-5-ung-dung-hop-truc-tuyen-hot-nhat-hien-1273210">Top 7 &#x1EE9;ng d&#x1EE5;ng h&#x1ECD;p, h&#x1ECD;c tr&#x1EF1;c tuy&#x1EBF;n mi&#x1EC5;n ph&#xED;, h&#x1EEF;u &#xED;ch hi&#x1EC7;n nay 2021</a>
+                                    <a href="/game-app/cach-ghim-video-tren-zoom-cloud-meetings-cuc-don-gian-1368663">C&#xE1;ch ghim video tr&#xEA;n Zoom Cloud Meetings c&#x1EF1;c &#x111;&#x1A1;n gi&#x1EA3;n</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <section class="clearfix footer__top">
+            <div class="footer__col">
+                <ul class="f-listmenu">
+                    <li><a rel="nofollow" href="#">Lịch sử mua hàng</a></li>
+                    <li><a rel="nofollow" href="#">Cộng tác bán hàng cùng TGDĐ</a></li>
+                    <li><a rel="nofollow" href="#">Tìm hiểu về mua trả góp</a></li>
+                    <li><a rel="nofollow" href="#">Chính sách bảo hành</a></li>
+                    <li><a href="#" class="arrow showtaga">Xem thêm</a></li>
+                    <li class="hidden"><a rel="nofollow" href="#">Chính sách đổi trả</a></li>
+                    <li class="hidden"><a rel="nofollow" href="#">Giao hàng & Thanh toán</a></li>
+                    <li class="hidden"><a rel="nofollow" href="#">Hướng dẫn mua online</a></li>
+                    <li class="hidden"><a rel="nofollow" href="#">Bán hàng doanh nghiệp</a></li>
+                    <li class="hidden"><a rel="nofollow" href="#">Phiếu mua hàng</a></li>
+                    <li class="hidden"><a rel="nofollow" href="#">In hóa đơn điện tử</a></li>
+                    <li class="hidden"><a rel="nofollow" href="#">Quy chế hoạt động</a></li>
+                    <li class="hidden"><a rel="nofollow" href="#">Nội quy cửa hàng</a></li>
+                    <li class="hidden"><a rel="nofollow" href="#">Chất lượng phục vụ</a></li>
+                    <li class="hidden"><a rel="nofollow" href="#">Cảnh báo giả mạo</a></li>
+                    <li class="hidden"><a rel="nofollow" href="#">Chính sách khui hộp sản phẩm Apple</a></li>
+                </ul>
+            </div>
+            <div class="footer__col">
+                <ul class="f-listmenu">
+                    <li><a rel="nofollow" href="#">Giới thiệu công ty (MWG.vn)</a></li>
+                    <li><a rel="nofollow" href="#">Tuyển dụng</a></li>
+                    <li><a rel="nofollow" href="#">Gửi góp ý, khiếu nại</a></li>
+                    <li><a rel="nofollow" href="#">Tìm siêu thị (2.085 shop)</a></li>
+                    <li><a rel="nofollow" class="linkversion" href="#">Xem bản mobile</a></li>
+                </ul>
+            </div>
+            <div class="footer__col">
+                <div class="f-listtel">
+                    <p class="f-listtel__title">
+                        <strong>Tổng đài hỗ trợ</strong> (Miễn phí gọi)
+                    </p>
+                    <p class="f-listtel__content"><span>Gọi mua:</span> <a href="#">1800.1060</a> (7:30 - 22:00)</p>
+                    <p class="f-listtel__content"><span>Kỹ thuật:</span> <a href="#">1800.1763</a> (7:30 - 22:00)</p>
+                    <p class="f-listtel__content"><span>Khiếu nại:</span> <a href="#">1800.1062</a> (8:00 - 21:30)</p>
+                    <p class="f-listtel__content"><span>Bảo hành:</span> <a href="#4">1800.1064</a> (8:00 - 21:00)</p>
+                </div>
+            </div>
+            <div class="footer__col">
+                <div class="f-social">
+                    <a href="#" class="link-fb">
+                    <i class="icon-facebook"></i>
+                    3674.5k Fan
+                </a>
+                    <a href="#" class="link-ytb">
+                    <i class="icon-youtube"></i>
+                    810k Đăng ký
+                </a>
+                </div>
+                <div class="f-certify">
+                    <a rel="nofollow" href="#" target="_blank">
+                    <i class="icon-congthuong"></i>
+                </a>
+                    <a rel="nofollow" href="#" target="_blank">
+                    <i class="icon-khieunai"></i>
+                </a>
+                    <a rel="nofollow" class="dmca-badge" href="#" target="_blank">
+                    <i class="icon-protected"></i>
+                </a>
+                </div>
+                <div class="f-website">
+                    <p class="f-website-title">Website cùng tập đoàn</p>
+                    <a rel="nofollow" href="#">
+                    <i class="icon-dmx"></i>
+                </a>
+                    <a rel="nofollow" href="#">
+                    <i class="icon-bhx"></i>
+                </a>
+                    <a rel="nofollow" href="#">
+                    <i class="icon-maiam"></i>
+                </a>
+                </div>
+            </div>
+        </section>
+        <div class="copyright">
+            <section>
+                <p>
+                    © copyright: lethaianhle &nbsp;<a rel="nofollow" href="#">https://github.com/lethaianhle</a>
+                </p>
+            </section>
+        </div>
+    </footer>
+    <script src="//cdn.tgdd.vn/mwgcart/mwgcore/js/bundle/globalTGDD.min.v202108230130.js" type="text/javascript"></script>
+    <script async="async" defer="defer" src="//cdn.tgdd.vn/mwgcart/mwgcore/js/bundle/homeTGDD.min.v202108100850.js" type="text/javascript"></script>
+    <script async="async" defer="defer" src="//cdn.tgdd.vn/mwgcart/mwgcore/js/bundle/homeGTM.min.v202107271040.js" type="text/javascript"></script>
+
+
+</body>
+
+</html>
